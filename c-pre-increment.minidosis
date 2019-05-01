@@ -6,7 +6,7 @@
 El pre-incremento es una @minidosis(unary-expression){expresión unaria} que usa
 el operador "@code{++}" @b{antes} de la variable que se quiere incrementar.
 
-@pre(c++)[[
+@pre(c++,display)[[
 ++a
 ]]
 
