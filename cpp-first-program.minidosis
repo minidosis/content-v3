@@ -1,0 +1,18 @@
+{
+  title: "C++ - El primer programa"
+  children: {
+    statement
+  }
+}
+
+Copia el siguiente texto en tu editor:
+@pre(c++)[[
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "hola" << endl;
+}
+]]
+
+Compila y comprueba que la salida realmente es "hola".
