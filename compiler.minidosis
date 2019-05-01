@@ -3,12 +3,14 @@
   bases: { program }
 }
 
-Un compilador traduce @minidosis(source-code){código fuente} a 
+@img{compiler.png}
+
+Un compilador traduce @minidosis(source-code){código fuente} a
 @minidosis(machine-code){código máquina}. La entrada del compilador es una
-descripción en forma textual de un programa, con el formato especificado por
-cierto @minidosis(prog-lang){lenguaje de programación} concreto, y la salida es
-un programa equivalente pero en un lenguaje que la máquina puede ejecutar
-directamente.
+descripción en forma textual de un programa (en la figura, @code{hola.cpp}), con
+el formato especificado por cierto @minidosis(prog-lang){lenguaje de
+programación} concreto, y la salida es un programa equivalente pero en un
+lenguaje que la máquina puede ejecutar directamente (en la figura, @code{hola.exe}).
 
 Es importante recordar que un compilador es (simplemente) un @minidosis(program){programa}.
 
