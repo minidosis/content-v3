@@ -4,5 +4,6 @@
 }
 
 Existen muchos tipos de lenguajes de programación, pero los lenguajes que los
-ordenadores pueden ejecutar directamente son @minidosis(machine-code){lenguajes máquina}.
-El resto de lenguajes son @minidosis(interpreter){interpretados} o @minidosis(compiler){compilados}.
+ordenadores pueden ejecutar directamente son @minidosis(lang-machine){lenguajes
+máquina}. El resto de lenguajes son @minidosis(interpreter){interpretados} o
+@minidosis(compiler){compilados}.

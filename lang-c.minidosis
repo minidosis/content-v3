@@ -4,8 +4,8 @@
   children: {
     c-integer-division
     c-type
-    c-for
-    c-while
+    c-statement-control-for
+    c-statement-control-while
   }
 }
 

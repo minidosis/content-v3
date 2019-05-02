@@ -1,0 +1,13 @@
+{
+  title: "Expresión Booleana"
+  bases: { expression }
+  children: {
+    type-boolean
+    value
+    operator
+    operand
+  }
+}
+
+Una expresión Booleana es una @minidosis(expression){expresión} cuyo resultado
+es un @minidosis(type-boolean){valor Booleano}.

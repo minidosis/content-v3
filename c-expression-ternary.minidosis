@@ -1,0 +1,33 @@
+{
+  title: "Expresión Ternaria (condicional)"
+  bases: { expression }
+  children: {
+    expression
+    expression-boolean
+  }
+}
+
+La única expresión ternaria en C es del tipo
+
+@pre(c,display){
+@box{condición} @b{?} @box{expresión cierta} @b{:} @box{expresión falsa}
+}
+
+y se la suele denominar "la expresión ternaria" o "el operador ternario", al
+solo haber una.
+
+Tiene 3 operandos, separados por "@b{@code{?}}" y "@b{@code{:}}".
+
+La @box{condición} es una @minidosis(expression-boolean){expresión booleana},
+que se evalúa primero. Luego, si ésta es cierta, se evalúa y se devuelve
+@box{expresión cierta}, y si no, se evalúa y devuelve @box{expresión falsa}.
+
+Una restricción importante es que los dos valores sean del mismo tipo, de lo
+contrario la expresión en conjunto tendría un tipo dinámico (que dependería de
+la condición), y C es un lenguaje de @minidosis(static-typing){tipado estático}.
+
+Ejemplos de expresiones ternarias:
+@pre(c, center){a < b ? "menor" : "mayor"}
+@pre(c, center){a >= 0 && a <= 1 ? "dentro" : "fuera"}
+@pre(c, center){type == "upper" ? 'A' : 'a'}
+
