@@ -1,6 +1,11 @@
 {
   title: "Lenguaje de Programación"
-  children: { expression statement control-statement mem-value type }
+  children: { 
+    keyword
+    type
+    expression 
+    statement 
+  }
 }
 
 Existen muchos tipos de lenguajes de programación, pero los lenguajes que los

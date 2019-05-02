@@ -20,6 +20,7 @@ int a = 5, b;
 b = @b{++a};
 ]]
 
-En este código la variable @code{b} valdrá 6, porque primero se incrementará
-@code{a} y luego se hace la @minidosis(cpp-assignment){asignación} de @code{b}
-con el nuevo valor de @code{a}.
+En este código la @minidosis(variable){variable} @code{b} valdrá 6, porque
+primero se incrementará @code{a} y luego se hace la
+@minidosis(cpp-assignment){asignación} de @code{b} con el nuevo valor de
+@code{a}.

@@ -10,7 +10,7 @@
 La única expresión ternaria en C es del tipo
 
 @pre(c,display){
-@box{condición} @b{?} @box{expresión cierta} @b{:} @box{expresión falsa}
+@box{condición} @b{?} @box{expresión1} @b{:} @box{expresión2}
 }
 
 y se la suele denominar "la expresión ternaria" o "el operador ternario", al
@@ -20,7 +20,7 @@ Tiene 3 operandos, separados por "@b{@code{?}}" y "@b{@code{:}}".
 
 La @box{condición} es una @minidosis(expression-boolean){expresión booleana},
 que se evalúa primero. Luego, si ésta es cierta, se evalúa y se devuelve
-@box{expresión cierta}, y si no, se evalúa y devuelve @box{expresión falsa}.
+@box{expresión1}, y si no, se evalúa y devuelve @box{expresión2}.
 
 Una restricción importante es que los dos valores sean del mismo tipo, de lo
 contrario la expresión en conjunto tendría un tipo dinámico (que dependería de

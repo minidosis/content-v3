@@ -3,9 +3,6 @@
   bases: { expression }
   children: {
     type-boolean
-    value
-    operator
-    operand
   }
 }
 

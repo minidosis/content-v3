@@ -1,0 +1,8 @@
+{
+  title: "Tipos en C++"
+  bases: { type }
+}
+
+Los tipos en C++ y bla bla bla.
+
+El tipo @code{int}.

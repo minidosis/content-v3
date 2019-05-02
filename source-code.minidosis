@@ -3,4 +3,11 @@
 }
 
 El código fuente es el código que escribe el programador y que luego se 
-@minidosis(compiler){compila} a @minidosis(lang-machine){código máquina}.
+@minidosis(compiler){compila} a @minidosis(lang-machine){código máquina},
+o bien es ejecutado por un @minidosis(interpreter){intérprete}. 
+
+La mayoría de variantes de código fuente estan diseñadas para ser leídas y
+escritas por personas, así que suelen asemejarse, dentro de lo posible, a
+lenguajes humanos. Por el contrario, el @minidosis(lang-machine){código máquina}
+es realmente difícil de descifrar (al ser una secuencia de
+@minidosis(byte){bytes}) y apenas nadie trabaja con él directamente.

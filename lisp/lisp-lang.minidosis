@@ -1,0 +1,6 @@
+{
+  title: "Lisp"
+  bases: { prog-lang }
+}
+
+El lenguaje de programación Lisp.
