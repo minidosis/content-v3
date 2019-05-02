@@ -1,17 +1,19 @@
 {
-  title: "C -- Pre-Incremento"
+  title: "Pre-Incremento (C)"
   bases: { c-expression-increment }
 }
 
-El pre-incremento es una @minidosis(unary-expression){expresión unaria} que usa
-el operador "@code{++}" @em{antes} de la variable que se quiere incrementar.
+El pre-@minidosis(c-expression-increment){incremento} es una
+@minidosis(unary-expression){expresión unaria} con la forma siguiente:
 
 @pre(c++,display)[[
 @b{++}@box{variable}
 ]]
 
-Cuando se usa dentro de una @minidosis(expression){expresión}, el @em{pre}-incremento 
-actualiza la @box{variable} @em{antes} de evaluar la expresión. Por ejemplo:
+Cuando se usa como una @minidosis(expression){expresión}, el pre-incremento 
+actualiza la @box{variable} @b{antes} de evaluar la expresión.
+
+Por ejemplo:
 
 @pre(c++)[[
 int a = 5, b;

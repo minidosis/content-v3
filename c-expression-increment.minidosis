@@ -1,5 +1,5 @@
 {
-  title: "C -- Incremento"
+  title: "Incremento (C)"
   bases: { expression }
   related: { math-addition }
 }
