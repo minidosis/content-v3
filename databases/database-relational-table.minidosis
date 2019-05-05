@@ -1,0 +1,22 @@
+{
+  title: "Tabla (Base de Datos Relacional)"
+  children: {
+    database-relational-column
+    database-relational-row
+  }
+}
+
+Una tabla en una @minidosis(database-relational){base de datos relacional} tiene
+varias filas y columnas. Las filas son cada uno de los objetos o entidades que
+se quieren representar y las columnas son los distintos campos (o atributos) de
+cada objeto.
+
+Por ejemplo, la siguiente tabla almacena datos de personas:
+
+@table{
+@header{@{Nombre}@{Apellido}@{Edad}}
+@row{@{Groucho}@{Marx}@{41}}
+@row{@{Chico}@{Marx}@{38}}
+@row{@{Harpo}@{Marx}@{39}}
+}
+
