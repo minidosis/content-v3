@@ -7,3 +7,15 @@
   }
 }
 
+Cuando una @minidosis(db-relational-table){tabla} @code{A} usa almenos una
+@minidosis(db-relational-column){columna} que almacena la
+@minidosis(db-relational-primary-key){clave primaria} de otra tabla @code{B}, se
+establece una relación entre @code{A} y @code{B}, porque cada entidad de
+@code{A} puede almacenar una referencia a una entidad de @code{B}.
+
+La clave que, en las entidades de @code{A}, se refiere a las entidades de
+@code{B} se denomina una @b{Clave Foránea} (en inglés @em{foreign key}).
+
+A través de una clave foránea, se puede codificar una relación muchos-a-uno, ya
+que varias entidades de @code{A} se pueden referir a la misma entidad de
+@code{B} (pero no al revés).
