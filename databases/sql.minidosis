@@ -9,12 +9,21 @@
   }
 }
 
-SQL (siglas de @em{Structured Query Language}) es un lenguaje declarativo 
-que permite modificar una base de datos y hacer consultas a sus datos.
+SQL (siglas de @em{Structured Query Language}) es un
+@minidosis(lang-declarative){lenguaje declarativo} que permite modificar una
+@minidosis(database-relational){base de datos relacional} y hacer consultas a
+sus datos.
 
-Los comandos esenciales que permite son: 
-@minidosis(sql-create){crear una tabla},
-@minidosis(sql-insert){insertar datos en una tabla},
-@minidosis(sql-update){actualizar los datos de una tabla},
-@minidosis(sql-delete){borrar datos de una tabla},
-@minidosis(sql-select){consultar datos de una o más tablas}.
+Los comandos para manipular tablas son:
+@enumerate{
+  @{@minidosis(sql-create){@code{CREATE TABLE}}, para crear tablas}
+  @{@minidosis(sql-drop-table){@code{DROP TABLE}}, para borrar tablas}
+}
+
+Los comandos para manipular las @minidosis(database-relational-row){filas} de una tabla:
+@enumerate{
+  @{@minidosis(sql-insert){@code{INSERT}}, para insertar filas}
+  @{@minidosis(sql-update){@code{UPDATE}}, para actualizar filas}
+  @{@minidosis(sql-delete){@code{DELETE}}, para borrar filas}
+  @{@minidosis(sql-select){@code{SELECT}}, para consultar filas}
+}

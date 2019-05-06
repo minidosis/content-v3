@@ -1,0 +1,26 @@
+{
+  title: "Columna"
+}
+
+En @minidosis(database-relational){bases de datos relacionales}, una @b{columna} en
+una @minidosis(database-relational-table){tabla} contiene todos los valores de
+cierto atributo para todos los objetos (o entidades) almacenados en la tabla.
+
+Una columna tiene también otros dos nombres equivalentes: @b{atributo} y @b{campo} @footnote(1)
+
+
+Por ejemplo, en la siguiente tabla de colores
+
+@table{
+@header{@{Nombre}@{Hex}}
+@row{@{rojo}@{@code{#ff0000}}}
+@row{@{azul}@{@code{#0000ff}}}
+@row{@{verde}@{@code{#00ff00}}}
+}
+
+la columna "Nombre" almacena los nombres para los tres colores almacenados
+en la tabla (que son las tres @minidosis(database-relational-row){filas}).
+
+@footnote(1){Ambos provienen de los @minidosis(prog-lang){lenguajes de programación}, donde
+los @minidosis(data-tuple){tipos de datos estructurados} permiten describir los
+diferentes datos asociados a un objeto.}
