@@ -1,7 +1,8 @@
 {
   title: "SQL"
   children: {
-    sql-create
+    sql-create-table
+    sql-drop-table
     sql-insert
     sql-update
     sql-delete
@@ -16,7 +17,7 @@ sus datos.
 
 Los comandos para manipular tablas son:
 @enumerate{
-  @{@minidosis(sql-create){@code{CREATE TABLE}}, para crear tablas}
+  @{@minidosis(sql-create-table){@code{CREATE TABLE}}, para crear tablas}
   @{@minidosis(sql-drop-table){@code{DROP TABLE}}, para borrar tablas}
 }
 

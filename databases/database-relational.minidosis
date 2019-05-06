@@ -19,4 +19,4 @@ llamado @minidosis(sql){SQL}, para poder hacer consultas y modificaciones.
 @footnote(1){La palabra "relación" se refiere aquí, desafortunadamente, a dos
 concpetos distintos. Por un lado cada tabla de una base de datos es una relación
 en sentido matemático, y por el otro los datos pueden relacionarse entre sí a
-través de atributos compartids.}
+través de atributos compartidos.}
