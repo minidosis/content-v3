@@ -1,9 +1,9 @@
 {
   title: "Tabla de Personajes"
-  bases: { database-relational-table }
+  bases: { db-relational-table }
 }
 
-La siguiente @minidosis(database-relational-table){tabla} guarda un listado de
+La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
 personajes:
 
 @table{

@@ -1,15 +1,15 @@
 {
   title: "Tabla"
   children: {
-    database-relational-column
-    database-relational-row
+    db-relational-column
+    db-relational-row
   }
 }
 
-Una tabla en una @minidosis(database-relational){base de datos relacional} tiene
-varias filas y columnas. Las @minidosis(database-relational-row){filas} son cada
+Una tabla en una @minidosis(db-relational){base de datos relacional} tiene
+varias filas y columnas. Las @minidosis(db-relational-row){filas} son cada
 uno de los objetos o entidades que se quieren representar y las
-@minidosis(database-relational-column){columnas} son los distintos campos (o
+@minidosis(db-relational-column){columnas} son los distintos campos (o
 atributos) de cada objeto.
 
 Por ejemplo, la siguiente tabla almacena datos de personas:

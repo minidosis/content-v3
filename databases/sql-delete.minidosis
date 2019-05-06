@@ -1,8 +1,8 @@
 {
   title: "DELETE"
   related: {
-    database-relational-table-characters
-    database-relational-table-products
+    db-relational-table-characters
+    db-relational-table-products
   }
 }
 
@@ -13,14 +13,14 @@ DELETE FROM @box{tabla} WHERE @box{cond};
 }
 
 Este comando recorre la @box{tabla} entera, y borra aquellas
-@minidosis(database-relational-row){entidades} que cumplen la condición
+@minidosis(db-relational-row){entidades} que cumplen la condición
 @box{cond}.
 
 Ejemplos:
 @ulist{
-@row{En la @minidosis(database-relational-table-characters){tabla de personajes}, para borrar el personaje de Leia:
+@row{En la @minidosis(db-relational-table-characters){tabla de personajes}, para borrar el personaje de Leia:
 @pre(sql){DELETE FROM Personajes WHERE id = 4;}}
 
-@row{En la @minidosis(database-relational-table-products){tabla de productos}, para borrar los bolígrafos:
+@row{En la @minidosis(db-relational-table-products){tabla de productos}, para borrar los bolígrafos:
 @pre(sql){DELETE FROM Productos WHERE modelo = "Cristal";}}
 }

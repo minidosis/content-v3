@@ -1,0 +1,24 @@
+{
+  title: "Base de Datos Relacional"
+  bases: { db }
+  children: {
+    sql
+    db-relational-table
+    db-relational-relation
+    db-relational-query-language
+  }
+}
+
+Una @minidosis(db){Base de Datos} Relacional@footnote(1):
+
+@ulist{
+@{Utiliza distintas @minidosis(db-relational-table){tablas} para almacenar los datos.}
+@{@minidosis(db-relational-relation){Relaciona} las tablas entre sí usando @minidosis(db-relational-column){columnas} con valores compartidos.}
+@{Utiliza diversos @minidosis(db-types){tipos de datos} para las columnas de cada tabla.}
+@{Dispone de @minidosis(sql){SQL}, un lenguaje específico (y con un estándar) para poder hacer consultas y modificaciones.}
+}
+
+@footnote(1){La palabra "relación" se refiere aquí, desafortunadamente, a dos
+concpetos distintos. Por un lado cada tabla es una relación en sentido
+matemático, y por el otro distintas tablas pueden relacionarse entre sí a través
+de atributos con valores compartidos.}

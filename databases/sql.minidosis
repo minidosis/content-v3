@@ -12,7 +12,7 @@
 
 SQL (siglas de @em{Structured Query Language}) es un
 @minidosis(lang-declarative){lenguaje declarativo} que permite modificar una
-@minidosis(database-relational){base de datos relacional} y hacer consultas a
+@minidosis(db-relational){base de datos relacional} y hacer consultas a
 sus datos.
 
 Los comandos para crear y borrar tablas son:
@@ -21,7 +21,7 @@ Los comandos para crear y borrar tablas son:
   @{@minidosis(sql-drop-table){@code{DROP TABLE}}, para borrar tablas}
 }
 
-Los comandos para manipular @minidosis(database-relational-row){filas} son:
+Los comandos para manipular @minidosis(db-relational-row){filas} son:
 @olist{
   @{@minidosis(sql-insert){@code{INSERT}}, para insertar filas}
   @{@minidosis(sql-update){@code{UPDATE}}, para actualizar filas}

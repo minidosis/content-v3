@@ -6,9 +6,9 @@ El comando @code{INSERT} tiene la sintaxis:
 
 @pre(sql,display){INSERT INTO @box{table} VALUES(@box{v1}, @box{v2}, ...)}
 
-y añade una nueva @minidosis(database-relational-row){entidad} a la base de
+y añade una nueva @minidosis(db-relational-row){entidad} a la base de
 datos, con los valores @box{v1}, @box{v2}, etc. para las respectivas
-@minidosis(database-relational-column){columnas}.
+@minidosis(db-relational-column){columnas}.
 
 Para evitar especificar todos los campos o bien ponerlos en otro orden, se puede usar
 @minidosis(sql-insert-into-cols){una variante de @code{INSERT}}.
@@ -16,7 +16,7 @@ Para evitar especificar todos los campos o bien ponerlos en otro orden, se puede
 Ejemplos:
 
 @ulist{
-  @{Si tenemos la @minidosis(database-relational-table-characters){tabla de personajes}, 
+  @{Si tenemos la @minidosis(db-relational-table-characters){tabla de personajes}, 
     para insertar un nuevo personaje haremos:
     @pre(sql){INSERT INTO Personajes VALUES(6, 'Olaf', 'M', 'Frozen', 8.8);}}
 }

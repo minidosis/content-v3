@@ -6,8 +6,8 @@ El comando @code{DROP TABLE} tiene la sintaxis:
 
 @pre(sql,display){DROP TABLE @box{nombre};}
 
-Y elimina de la @minidosis(database-relational){base de datos} la
-@minidosis(database-relational-table){tabla} con el nombre @box{nombre}. Produce
+Y elimina de la @minidosis(db-relational){base de datos} la
+@minidosis(db-relational-table){tabla} con el nombre @box{nombre}. Produce
 un error si la tabla no existe @footnote(1)
 
 @footnote(1){Existe una @minidosis(sql-drop-table-if-exists){variante} que

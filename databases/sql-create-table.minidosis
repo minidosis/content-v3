@@ -8,7 +8,7 @@ El comando @code{CREATE TABLE} tiene la sintaxis:
 
 El @box{nombre} es libre, siguiendo unas
 @minidosis(sql-table-name-rules){reglas}. Entre paréntesis hay una lista de los
-atributos (@box{a1}, @box{a1}, etc.) o @minidosis(database-relational-column){columnas}, en el
+atributos (@box{a1}, @box{a1}, etc.) o @minidosis(db-relational-column){columnas}, en el
 formato
 
 @pre(sql,display){@box{nombre} @box{tipo}}
