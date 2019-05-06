@@ -18,6 +18,6 @@ Una @minidosis(db){Base de Datos} Relacional@footnote(1):
 }
 
 @footnote(1){La palabra "relación" se refiere aquí, desafortunadamente, a dos
-concpetos distintos. Por un lado cada tabla es una relación en sentido
+conceptos distintos. Por un lado cada tabla es una relación en sentido
 matemático, y por el otro distintas tablas pueden relacionarse entre sí a través
 de atributos con valores compartidos.}

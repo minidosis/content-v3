@@ -14,7 +14,7 @@ entidades en una misma tabla con la misma clave primaria.
 A menudo, por comodidad, se agrega una @minidosis(db-relational-column){columna}
 de tipo entero (típicamente llamada ID) a las tablas para que la clave
 primaria sea simplemente una columna (como en el ejemplo de la
-@minidosis(db-relational-table-characters){table de personajes} o la
+@minidosis(db-relational-table-characters){tabla de personajes} o la
 @minidosis(db-relational-table-products){tabla de productos}).
 
 
