@@ -7,7 +7,7 @@ La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
 personajes:
 
 @table{
-@header{@{ID}@{Descripción}@{Modelo}@{Marca}@{Precio}}
+@header{@{id}@{descripción}@{modelo}@{marca}@{precio}}
 @row{@{82983}@{Grapadora 22/6}@{232}@{Petrus}@{19.90}}
 @row{@{77102}@{Bolígrafo Azul, Caja 50}@{Cristal}@{BIC}@{11.30}}
 @row{@{78723}@{Paquete Papel A4}@{Universal}@{Navigator}@{3.90}}

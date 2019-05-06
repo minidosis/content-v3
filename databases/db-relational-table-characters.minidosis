@@ -7,7 +7,7 @@ La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
 personajes:
 
 @table{
-@header{@{ID}@{Nombre}@{Sexo}@{Película}@{Nota}}
+@header{@{id}@{nombre}@{género}@{película}@{nota}}
 @row{@{1}@{Sherlock Holmes}@{M}@{Sherlock}@{9.2}}
 @row{@{2}@{Hermione Granger}@{F}@{Harry Potter}@{9.3}}
 @row{@{3}@{Jack Sparrow}@{M}@{Piratas del Caribe}@{9.1}}

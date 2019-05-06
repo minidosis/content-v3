@@ -1,5 +1,6 @@
 {
   title: "Base de Datos"
+  children: { db-types }
 }
 
 Una Base de Datos (BBDD) es un programa especializado en almacenar datos de
