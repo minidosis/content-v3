@@ -2,21 +2,23 @@
   title: "Base de Datos Relacional"
   bases: { database }
   children: {
+    sql
     database-relational-table
     database-relational-relation
     database-relational-query-language
   }
 }
 
-Una @minidosis(database){Base de Datos} @em{Relacional} utiliza distintas
-@minidosis(database-relational-table){tablas} para almacenar los datos (cada
-tabla es como una relación en el sentido matemático) y campos compartidos entre
-las tablas para relacionar@footnote(1) unas con otras.
+Una @minidosis(database){Base de Datos} Relacional@footnote(1):
 
-Las BBDD relacionales utilizan un lenguaje específico (y con un estándar),
-llamado @minidosis(sql){SQL}, para poder hacer consultas y modificaciones.
+@ulist{
+@{Utiliza distintas @minidosis(database-relational-table){tablas} para almacenar los datos.}
+@{@minidosis(database-relational-relation){Relaciona} las tablas entre sí usando @minidosis(database-relational-column){columnas} con valores compartidos.}
+@{Utiliza diversos @minidosis(database-types){tipos de datos} para las columnas de cada tabla.}
+@{Dispone de @minidosis(sql){SQL}, un lenguaje específico (y con un estándar) para poder hacer consultas y modificaciones.}
+}
 
 @footnote(1){La palabra "relación" se refiere aquí, desafortunadamente, a dos
-concpetos distintos. Por un lado cada tabla de una base de datos es una relación
-en sentido matemático, y por el otro los datos pueden relacionarse entre sí a
-través de atributos compartidos.}
+concpetos distintos. Por un lado cada tabla es una relación en sentido
+matemático, y por el otro distintas tablas pueden relacionarse entre sí a través
+de atributos con valores compartidos.}

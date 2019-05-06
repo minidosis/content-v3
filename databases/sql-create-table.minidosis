@@ -4,21 +4,31 @@
 
 El comando @code{CREATE TABLE} tiene la sintaxis:
 
-@pre(sql,display){CREATE TABLE @box{nombre}(@box{a1},@box{a2}, ... ,@box{aN});}
+@pre(sql,display){CREATE TABLE @box{nombre}(@box{a1},@box{a2}, ...);}
 
 El @box{nombre} es libre, siguiendo unas
 @minidosis(sql-table-name-rules){reglas}. Entre paréntesis hay una lista de los
-atributos (@box{aX}) o @minidosis(database-relational-column){columnas}, en el
+atributos (@box{a1}, @box{a1}, etc.) o @minidosis(database-relational-column){columnas}, en el
 formato
 
 @pre(sql,display){@box{nombre} @box{tipo}}
 
-Ejemplos:
-@itemize{
-  @{Tabla para almacenar personas con nombre, apellido y edad:
-    @pre(sql){CREATE TABLE Persons(nombre TEXT, apellido TEXT, edad INTEGER);}}
+ 
 
-  @{Tabla para almacenar animales con especie y peso:
-    @pre(sql){CREATE TABLE Animales(especie TEXT, peso REAL);}}
+Ejemplos:
+@ulist{
+
+@{Tabla para almacenar personas con nombre, apellido y edad:
+@pre(sql){CREATE TABLE Persons(
+  nombre TEXT, 
+  apellido TEXT, 
+  edad INTEGER
+);}}
+
+@{Tabla para almacenar animales con especie y peso:
+@pre(sql){CREATE TABLE Animales(
+  especie TEXT, 
+  peso REAL
+);}}
   
 }

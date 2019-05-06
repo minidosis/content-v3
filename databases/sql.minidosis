@@ -15,16 +15,20 @@ SQL (siglas de @em{Structured Query Language}) es un
 @minidosis(database-relational){base de datos relacional} y hacer consultas a
 sus datos.
 
-Los comandos para manipular tablas son:
-@enumerate{
+Los comandos para crear y borrar tablas son:
+@olist{
   @{@minidosis(sql-create-table){@code{CREATE TABLE}}, para crear tablas}
   @{@minidosis(sql-drop-table){@code{DROP TABLE}}, para borrar tablas}
 }
 
-Los comandos para manipular las @minidosis(database-relational-row){filas} de una tabla:
-@enumerate{
+Los comandos para manipular @minidosis(database-relational-row){filas} son:
+@olist{
   @{@minidosis(sql-insert){@code{INSERT}}, para insertar filas}
   @{@minidosis(sql-update){@code{UPDATE}}, para actualizar filas}
   @{@minidosis(sql-delete){@code{DELETE}}, para borrar filas}
+}
+
+Los comandos para hacer consultas son:
+@olist{
   @{@minidosis(sql-select){@code{SELECT}}, para consultar filas}
 }

@@ -1,0 +1,16 @@
+{
+  title: "Tipos en Bases de Datos"
+  bases: { type }
+}
+
+Las bases de datos utilizan muchos @minidosis(type){tipos} de datos distintos
+para las @minidosis(database-relational-column){columnas}, pero cada base de datos 
+tiene tipos ligeramente distintos.
+
+Tipos para:
+@ulist{
+@{@minidosis(database-types-sqlite){SQLite}}
+}
+
+
+

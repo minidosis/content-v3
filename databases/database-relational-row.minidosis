@@ -3,11 +3,9 @@
 }
 
 En @minidosis(databases-relational){bases de datos relacionales}, una @b{fila}
-en una @minidosis(database-relational-table){tabla} representa un solo objeto
-con todos sus diferentes atributos.
-
-Una fila tiene también se denota con otros nombres equivalentes: @b{objeto},
-@b{tupla} o @b{entidad}. 
+(también @b{entidad}, @b{objeto} o @b{tupla}) en una
+@minidosis(database-relational-table){tabla} representa un solo objeto con todos
+sus diferentes atributos.
 
 Por ejemplo, en la siguiente tabla de colores
 
