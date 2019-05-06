@@ -1,5 +1,6 @@
 {
   title: "INSERT (indicando columnas)"
+  bases: { sql-insert }
 }
 
 Esta variante del comando @code{INSERT} tiene la sintaxis:
