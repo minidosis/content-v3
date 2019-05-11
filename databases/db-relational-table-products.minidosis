@@ -5,7 +5,7 @@
 
 @text{
 La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
-personajes:
+productos:
 
 @table{
 @header{@{id}@{descripción}@{modelo}@{marca}@{precio}}
