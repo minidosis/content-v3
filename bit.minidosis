@@ -2,7 +2,9 @@
   title: "Bit"
 }
 
+@text{
 Un @b{bit} es la unidad más pequeña de información, con solo dos valores
 posibles: @b{0} o @b{1}. Los ordenadores representan de forma electrónica
 bits usando un voltaje alto o bajo, y usando muchos bits se pueden representar
 datos de cualquier @minidosis(type){tipo}.
+}

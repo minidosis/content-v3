@@ -2,6 +2,7 @@
   title: "CREATE TABLE"
 }
 
+@text{
 El comando @code{CREATE TABLE} tiene la sintaxis:
 
 @pre(sql,display){CREATE TABLE @box{nombre}(@box{a1},@box{a2}, ...);}
@@ -31,4 +32,6 @@ Ejemplos:
   peso REAL
 );}}
   
+}
+
 }

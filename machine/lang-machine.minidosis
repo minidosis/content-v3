@@ -5,4 +5,6 @@
   }
 }
 
+@text{
 El código máquina es código en binario que los procesadores pueden ejecutar directamente.
+}

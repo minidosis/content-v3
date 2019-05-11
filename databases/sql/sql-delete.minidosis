@@ -6,6 +6,7 @@
   }
 }
 
+@text{
 El comando @code{DELETE} tiene la sintaxis:
 
 @pre(sql,display){
@@ -23,4 +24,5 @@ Ejemplos:
 
 @row{En la @minidosis(db-relational-table-products){tabla de productos}, para borrar los bolígrafos:
 @pre(sql){DELETE FROM Productos WHERE modelo = "Cristal";}}
+}
 }

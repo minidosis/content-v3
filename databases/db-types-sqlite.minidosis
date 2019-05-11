@@ -3,6 +3,7 @@
   bases: { db-types }
 }
 
+@text{
 @minidosis(db-relational-sqlte){SQLite} tiene solo 5 tipos internamente
 (que denomina @em{storage classes})
 
@@ -17,3 +18,4 @@
 
 Estos tipos son los que se usan efectivamente en memoria, aunque en el disco una
 base de datos que almacena enteros pequeños usará el mínimo espacio.
+}

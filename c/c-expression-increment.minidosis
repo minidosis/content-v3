@@ -4,6 +4,7 @@
   related: { math-addition }
 }
 
+@text{
 El incremento en @minidosis(c-lang){C} (y @minidosis(cpp-lang){C++}) permite
 añadir una unidad a una @minidosis(variable){variable} de tipo
 @minidosis(integer-type){@code{int}}, @minidosis(float-type){@code{float}}, o
@@ -24,3 +25,4 @@ a++;
 ]]
 
 La diferencia entre las dos aparece cuando se usan en una @minidosis(expression){expresión}.
+}

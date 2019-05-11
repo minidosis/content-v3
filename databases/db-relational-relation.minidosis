@@ -7,6 +7,7 @@
   }
 }
 
+@text{
 Cuando una @minidosis(db-relational-table){tabla} @code{A} usa almenos una
 @minidosis(db-relational-column){columna} que almacena la
 @minidosis(db-relational-primary-key){clave primaria} de otra tabla @code{B}, se
@@ -19,3 +20,4 @@ La clave que, en las entidades de @code{A}, se refiere a las entidades de
 A través de una clave foránea, se puede codificar una relación muchos-a-uno, ya
 que varias entidades de @code{A} se pueden referir a la misma entidad de
 @code{B} (pero no al revés).
+}

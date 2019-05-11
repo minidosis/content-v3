@@ -8,6 +8,7 @@
   }
 }
 
+@text{
 Una @minidosis(db){Base de Datos} Relacional@footnote(1):
 
 @ulist{
@@ -21,3 +22,4 @@ Una @minidosis(db){Base de Datos} Relacional@footnote(1):
 conceptos distintos. Por un lado cada tabla es una relación en sentido
 matemático, y por el otro distintas tablas pueden relacionarse entre sí a través
 de atributos con valores compartidos.}
+}

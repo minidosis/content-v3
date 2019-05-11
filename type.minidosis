@@ -5,6 +5,7 @@
   }
 }
 
+@text{
 En programación, un "tipo" se refiere a un tipo de @em{datos}. Es decir, un tipo
 es un conjunto de @minidosis(value){valores} de la misma clase que normalmente
 se almacenan en @minidosis(variable){variables}, con una
@@ -16,3 +17,4 @@ los lenguajes de programación suele haber tipos para representar
 @minidosis(type-integer){números enteros}, @minidosis(type-real){números
 reales}, @minidosis(type-character){caracteres sueltos},
 @minidosis(type-string){cadenas de caracteres}, etc.
+}

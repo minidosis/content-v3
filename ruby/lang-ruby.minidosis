@@ -2,3 +2,7 @@
   title: "Ruby"
   bases: { prog-lang }
 }
+
+@text{
+Ruby
+}

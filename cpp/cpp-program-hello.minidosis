@@ -5,6 +5,7 @@
   }
 }
 
+@text{
 Copia el siguiente texto en tu editor:
 @pre(c++)[[
 #include <iostream>
@@ -16,3 +17,4 @@ int main() {
 ]]
 
 Compila y comprueba que la salida realmente es "hola".
+}

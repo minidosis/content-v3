@@ -7,6 +7,7 @@
   }
 }
 
+@text{
 La única expresión ternaria en C es del tipo
 
 @pre(c,display){
@@ -30,4 +31,4 @@ Ejemplos de expresiones ternarias:
 @pre(c, center){a < b ? "menor" : "mayor"}
 @pre(c, center){a >= 0 && a <= 1 ? "dentro" : "fuera"}
 @pre(c, center){type == "upper" ? 'A' : 'a'}
-
+}

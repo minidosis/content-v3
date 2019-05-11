@@ -3,6 +3,7 @@
   bases: { keyword }
 }
 
+@text{
 Las @minidosis(keyword){palabras reservadas} de C++ son las siguientes:
 
 @pre{
@@ -17,4 +18,5 @@ public register reinterpret_cast return short signed sizeof
 static static_cast struct switch template this throw true
 try typedef typeid typename union unsigned using 
 virtual void volatile wchar_t while xor xor_eq
+}
 }

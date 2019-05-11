@@ -10,6 +10,7 @@
   }
 }
 
+@text{
 SQL (siglas de @em{Structured Query Language}) es un
 @minidosis(lang-declarative){lenguaje declarativo} que permite modificar una
 @minidosis(db-relational){base de datos relacional} y hacer consultas a
@@ -31,4 +32,5 @@ Los comandos para manipular @minidosis(db-relational-row){filas} son:
 Los comandos para hacer consultas son:
 @ulist{
   @{@minidosis(sql-select){@code{SELECT}}, para consultar filas}
+}
 }

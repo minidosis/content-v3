@@ -3,6 +3,7 @@
   bases: { sql-insert }
 }
 
+@text{
 Esta variante del comando @code{INSERT} tiene la sintaxis:
 
 @pre(sql,display){
@@ -12,3 +13,4 @@ VALUES(@box{v1}, @box{v2}, ...)
 
 y permite indicar qué columnas queremos insertar concretamente (el resto
 quedarán a NULL).
+}

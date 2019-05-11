@@ -3,6 +3,7 @@
   bases: { program }
 }
 
+@text{
 Un compilador es un @minidosis(program){programa} que traduce
 @minidosis(source-code){código fuente} a @minidosis(machine-code){código
 máquina}. La entrada del compilador es una descripción en forma textual de un
@@ -21,3 +22,4 @@ compiladores distintos que compilan programas siguiendo el estándar.
 
 Existen estándares para @minidosis(c-lang){C}, @minidosis(cpp-lang){C++}, 
 @minidosis(js-lang){Javascript}, @minidosis(lisp-lang){Lisp}, etc.
+}

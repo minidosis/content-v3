@@ -2,6 +2,7 @@
   title: "Columna"
 }
 
+@text{
 En una @minidosis(db-relational-table){tabla} de una
 @minidosis(db-relational){bases de datos relacional}, una @b{columna}
 contiene los distintos valores de cierto atributo para cada
@@ -25,3 +26,4 @@ la columna "Nombre" almacena los nombres para los tres colores (las tres
 @footnote(1){Ambos provienen de los @minidosis(prog-lang){lenguajes de programación}, donde
 los @minidosis(data-tuple){tipos de datos estructurados} permiten describir los
 diferentes datos asociados a un objeto.}
+}

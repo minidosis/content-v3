@@ -2,6 +2,8 @@
   title: "Variable"
 }
 
+@text{
 En un @minidosis(prog-lang){lenguaje de programación}, una variable es una
 porción de la memoria del ordenador donde se guarda un @minidosis(value){valor}
 de cierto @minidosis(type){tipo}. 
+}

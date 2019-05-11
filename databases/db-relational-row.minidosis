@@ -2,6 +2,7 @@
   title: "Fila"
 }
 
+@text{
 En @minidosis(dbs-relational){bases de datos relacionales}, una @b{fila}
 (también @b{entidad}, @b{objeto} o @b{tupla}) en una
 @minidosis(db-relational-table){tabla} se corresponde con un solo objeto
@@ -17,3 +18,4 @@ Por ejemplo, en la siguiente tabla @code{Colores}
 }
 
 la primera fila guarda los dos atributos @code{nombre} y @code{hex} para el color rojo.
+}

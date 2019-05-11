@@ -8,8 +8,10 @@
   }
 }
 
+@text{
 El lenguaje de programación C++ proviene del lenguaje @minidosis(c-lang){C}.
 
 @minidosis(cpp-program-hello){El Primer Programa}
 
 @minidosis(c-increment){Incremento}
+}

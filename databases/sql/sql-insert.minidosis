@@ -2,6 +2,7 @@
   title: "INSERT"
 }
 
+@text{
 El comando @code{INSERT} tiene la sintaxis:
 
 @pre(sql,display){INSERT INTO @box{table} VALUES(@box{v1}, @box{v2}, ...)}
@@ -22,3 +23,4 @@ Ejemplos:
 }
 
 @comment{Bla bla esto no se va a ver...}
+}

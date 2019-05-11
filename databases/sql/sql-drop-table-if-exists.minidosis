@@ -3,9 +3,11 @@
   bases: { sql-drop-table }
 }
 
+@text{
 La variante de @code{DROP TABLE} donde añadimos @code{IF EXISTS}
 
 @pre(sql,display){DROP TABLE IF EXISTS @box{nombre};}
 
 suprime el error que resulta cuando al intentar borrar una tabla, ésta no
 existe.
+}

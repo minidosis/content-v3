@@ -3,6 +3,8 @@
   bases: { type }
 }
 
+@text{
 Los tipos en C++ y bla bla bla.
 
 El tipo @code{int}.
+}

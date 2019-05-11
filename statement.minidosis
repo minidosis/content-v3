@@ -6,5 +6,7 @@
   }
 }
 
+@text{
 Una instrucción en un lenguaje de programación indica al ordenador
 que debe realizar alguna operación. 
+}

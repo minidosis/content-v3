@@ -3,6 +3,7 @@
   bases: { db-relational-table }
 }
 
+@text{
 La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
 personajes:
 
@@ -12,4 +13,5 @@ personajes:
 @row{@{77102}@{Bolígrafo Azul, Caja 50}@{Cristal}@{BIC}@{11.30}}
 @row{@{78723}@{Paquete Papel A4}@{Universal}@{Navigator}@{3.90}}
 @row{@{22989}@{Gomas de Borrar, Pack de 24}@{CPM624}@{Milan}@{6.45}}
+}
 }

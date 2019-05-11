@@ -3,6 +3,7 @@
   bases: { db-relational-table }
 }
 
+@text{
 La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
 personajes:
 
@@ -23,3 +24,4 @@ Para @minidosis(sql-create-table){crear} esta tabla ejecutaríamos el siguiente 
   pelicula TEXT, 
   nota REAL
 );}
+}

@@ -2,3 +2,7 @@
   title: "Python"
   bases: { prog-lang }
 }
+
+@text{
+  Python...
+}

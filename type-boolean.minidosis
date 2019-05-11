@@ -3,6 +3,8 @@
   bases: { type }
 }
 
+@text{
 El tipo Booleano es el @minidosis(type){tipo} de datos cuyos posibles valores
 son sólo "cierto" o "falso". Este tipo se puede representar con un solo
 @minidosis(bit){bit}.
+}

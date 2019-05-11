@@ -2,6 +2,7 @@
   title: "Token"
 }
 
+@text{
 En un @minidosis(prog-lang){lenguaje de programación} un @em{token}
 es una secuencia de caracteres que es considerada como unidad
 indivisible al tratar el código fuente.
@@ -11,3 +12,4 @@ estructuras de mayor nivel como expresiones o instrucciones.
 
 Las @minidosis(keyword){palabras reservadas} de un lenguaje suelen ser
 @em{tokens}.
+}

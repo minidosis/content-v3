@@ -3,6 +3,7 @@
   bases: { c-expression-increment }
 }
 
+@text{
 El pre-@minidosis(c-expression-increment){incremento} es una
 @minidosis(unary-expression){expresión unaria} con la forma siguiente:
 
@@ -24,3 +25,4 @@ En este código la @minidosis(variable){variable} @code{b} valdrá 6, porque
 primero se incrementará @code{a} y luego se hace la
 @minidosis(cpp-assignment){asignación} de @code{b} con el nuevo valor de
 @code{a}.
+}

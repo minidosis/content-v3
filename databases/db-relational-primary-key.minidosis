@@ -2,6 +2,7 @@
   title: "Clave Primaria"
 }
 
+@text{
 En una @minidosis(db-relational-table){tabla}, la clave primaria (@em{primary
 key}) es un subconjunto de columnas que permite identificar cada
 @minidosis(db-relational-row){entidad}. Es decir, cada grupo de valores de las
@@ -16,6 +17,4 @@ de tipo entero (típicamente llamada ID) a las tablas para que la clave
 primaria sea simplemente una columna (como en el ejemplo de la
 @minidosis(db-relational-table-characters){tabla de personajes} o la
 @minidosis(db-relational-table-products){tabla de productos}).
-
-
-
+}

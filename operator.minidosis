@@ -3,6 +3,7 @@
   children: { token }
 }
 
+@text{
 Un operador es un símbolo que representa una operación, con frecuencia
 inspirada en las matemáticas.
 
@@ -12,3 +13,4 @@ de cadenas de caracteres, o relaciones como la comparación, mayor-que, y tambi�
 otros para acceso a campos y a casillas de tablas.
 
 Los operadores son @minidosis(token){tokens}.
+}
