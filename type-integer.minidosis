@@ -5,8 +5,9 @@
 }
 
 @text{
+
 El @minidosis(type){tipo} entero permite representar números enteros. La mayoría
 de CPUs representan los enteros en @minidosis(twos-complement){complemento a
-centrados en el 0, con igual cantidad de números positivos y negativos.
-dos} (@em{two's complement}), que permite representar un intervalo de números enteros
+dos} (@em{two's complement})...
+
 }
