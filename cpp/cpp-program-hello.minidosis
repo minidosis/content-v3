@@ -13,8 +13,7 @@ using namespace std;
 
 int main() {
   cout << "hola" << endl;
-}
-]]
+}]]
 
 Compila y comprueba que la salida realmente es "hola".
 }
