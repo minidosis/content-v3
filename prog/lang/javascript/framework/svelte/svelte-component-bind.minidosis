@@ -1,0 +1,37 @@
+{
+  title: "Asociación de variables"
+}
+
+@text[[[
+
+Si tenemos una caja de texto en HTML y una variable en Javascript y queremos que
+ambas representen la misma cosa hay que sincronizar sus valores, porque son
+distintos. La sincronización se hace copiando los valores, y hay dos
+direcciones de copia:
+
+@ulist{
+  @{de la caja de texto a la variable (como cuando queremos obtener los valores
+  de un formulario para hacer algo con ellos)} 
+  
+  @{de la variable a la caja de texto (como cuando inicializamos un formulario
+  con valores ya guardados)}
+}
+
+Mantener la sincronización sin errores tiene un coste elevado para el
+programador, así que Svelte proporciona un sistema de asociación entre 
+ambos
+@pre(html)[[
+<script>
+  let variable = 'texto'
+</script>
+
+<input bind:value={variable} /> 
+]]
+
+El atributo @code{bind:value} produce la doble asociación (@em{two-way binding}), así que 
+al teclear en la caja de texto el valor de la variable cambia y al cambiar la variable
+se actualiza la caja de texto.
+
+Svelte trata las @minidosis(svelte-component-bind-number){asociaciones numéricas} de forma especial.
+
+]]]

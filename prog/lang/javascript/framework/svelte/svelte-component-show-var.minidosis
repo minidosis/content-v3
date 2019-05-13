@@ -1,13 +1,16 @@
 {
-  title: "Componente Svelte que muestra una variable"
+  title: "Mostrar una variable"
   bases: { svelte-component }
+  children: {
+    svelte-component-data
+  }
 }
 
 @text[[[
 
-El siguiente componente Svelte tiene como dato interno la variable @code{name} y
-la muestra dentro de un título de tipo @code{h1}, pasando primero todas sus 
-letras a mayúsculas
+El siguiente componente Svelte tiene como @minidosis(svelte-component-data){dato
+interno} la variable @code{name} y la muestra dentro de un título de tipo
+@code{h1}, pasando primero todas sus letras a mayúsculas
 
 @pre(svelte){{{
 <script>

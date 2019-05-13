@@ -6,10 +6,22 @@
 
 Las propiedades en componentes Svelte son simplemente variables a las
 que se ha marcado con @code{export}@footnote(1)
+@pre(svelte)[[[
+<script>
+  export let text;
+  export let height;
+</script>
+]]]
+
+En una @minidosis(svelte-component-call){llamada a otro componente}, los
+valores de estas variables se obtienen de la llamada:
+@pre(html)[[[
+<MyComponent text="hola" height={80} />
+]]]
 
 
 @footnote(1){
-Aquí Svelte aplica un significado distinto del estándar para @code{export}
+Aquí Svelte usa @code{export} con un  significado distinto del estándar.
 }
 
 ]]]

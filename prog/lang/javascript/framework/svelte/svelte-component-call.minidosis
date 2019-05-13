@@ -4,20 +4,23 @@
 
 @text[[[
 
-Para llamar a un componente Svelte:
-@olist{
-  @{hay que importar el fichero del componente}
-  @{hay que usarlo como si se tratase de un "nuevo elemento HTML".}
-}
-
-Por ejemplo, si tenemos un componente @code{Navigation}:
-
-@pre(html){
+Para llamar a un componente Svelte primero hay que importar el componente en el
+@code{ <script>}:
+@pre(html)[[
 <script>
-  import Navigation from '../components/Navigation.svelte';
+  import @b{MyComponent} from '../components/@b{MyComponent}.svelte';
 </script>
+]]
 
-<Navigation />
-}
+Luego se usa como si fuera un "nuevo elemento HTML":
+@pre(html)[[
+<@b{MyComponent} prop1="val" prop2={x} prop3 />
+]]
+
+Los atributos incluidos en la llamada se convertirán en los
+@em{@minidosis(svelte-component-props){props}} (en el ejemplo, @code{prop1},
+@code{prop2} y @code{prop3})
+
+Cualquier actualización de los props se propaga al interior del componente.
 
 ]]]

@@ -8,6 +8,8 @@
     svelte-component-data
     svelte-component-events
     svelte-component-call
+    svelte-component-logic
+    svelte-component-bind
   }
 }
 
@@ -24,13 +26,13 @@ Esto hace que un componente sea autocontenido.
 Los componentes:
 @ulist{
   @{tienen @minidosis(svelte-component-props){propiedades} (o @em{props}),}
+  @{tienen @minidosis(svelte-component-data){datos internos},}
   @{pueden definir @minidosis(svelte-component-styling){estilos propios},}
   @{se pueden @minidosis(svelte-component-call){llamar entre ellos},}
   @{definen una @minidosis(svelte-component-logic){lenguaje específico} para la generación condicional e iterativa del HTML,}
   @{permiten @minidosis(svelte-component-bind){asociar variables} con elementos DOM de tipo @code{<input>}.}
-  @{tienen @minidosis(svelte-component-data){datos internos},}
   @{pueden @minidosis(svelte-component-events){detectar eventos},}
-  @{tienen un @minidosis(svelte-component-lifecycle){ciclo de vida},}
+  @{tienen funciones asociadas al @minidosis(svelte-component-lifecycle){ciclo de vida},}
 }
 
 ]]]
