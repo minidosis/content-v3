@@ -1,0 +1,20 @@
+{
+  title: "Lógica en componentes Svelte"  
+}
+
+@text[[[
+
+Logic
+@ulist{
+  @{@code{if} blocks}
+  @{@code{else} blocks}
+  @{@code{else if} blocks}
+  @{@code{each} blocks
+    @ulist{
+      @{Keys}
+    }
+  }
+  @{@code{await} blocks}
+}
+
+]]]

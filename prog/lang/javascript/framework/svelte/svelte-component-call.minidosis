@@ -1,0 +1,23 @@
+{
+  title: "Llamadas a componentes Svelte"
+}
+
+@text[[[
+
+Para llamar a un componente Svelte:
+@olist{
+  @{hay que importar el fichero del componente}
+  @{hay que usarlo como si se tratase de un "nuevo elemento HTML".}
+}
+
+Por ejemplo, si tenemos un componente @code{Navigation}:
+
+@pre(html){
+<script>
+  import Navigation from '../components/Navigation.svelte';
+</script>
+
+<Navigation />
+}
+
+]]]

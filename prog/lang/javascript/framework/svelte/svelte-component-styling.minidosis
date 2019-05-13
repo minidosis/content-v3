@@ -1,0 +1,8 @@
+{
+  title: "Estilo de componentes Svelte"
+}
+
+@text[[[
+El estilo de componentes Svelte se define dentro de tags @code{<style>} y afecta
+solamente al componente en cuestión.
+]]]

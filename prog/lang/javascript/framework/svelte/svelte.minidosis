@@ -1,0 +1,11 @@
+{
+  title: "Svelte"
+  bases: { javascript-framework }
+  children: { svelte-component }
+}
+
+@text{
+@a(https://svelte.dev){Svelte} es un framework Javascript para desarrollar aplicaciones web:
+
+@minidosis(svelte-component){Components}
+}

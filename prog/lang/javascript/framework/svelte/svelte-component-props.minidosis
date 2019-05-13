@@ -1,0 +1,15 @@
+{
+  title: "Propiedades de componentes"
+}
+
+@text[[[
+
+Las propiedades en componentes Svelte son simplemente variables a las
+que se ha marcado con @code{export}@footnote(1)
+
+
+@footnote(1){
+Aquí Svelte aplica un significado distinto del estándar para @code{export}
+}
+
+]]]

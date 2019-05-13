@@ -1,0 +1,14 @@
+{
+  title: "Datos de un componente"
+}
+
+@text[[[
+
+Model Data
+@ulist{
+@{Showing model Data.}
+@{Using model data in attributes.}
+@{Inserting html @code[{@@html text}]}
+}
+
+]]]

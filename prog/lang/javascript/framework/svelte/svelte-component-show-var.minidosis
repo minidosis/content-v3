@@ -1,0 +1,20 @@
+{
+  title: "Componente Svelte que muestra una variable"
+  bases: { svelte-component }
+}
+
+@text[[[
+
+El siguiente componente Svelte tiene como dato interno la variable @code{name} y
+la muestra dentro de un título de tipo @code{h1}, pasando primero todas sus 
+letras a mayúsculas
+
+@pre(svelte){{{
+<script>
+  let name = 'world';
+</script>
+
+<h1>Hello {name.toUpperCase()}!</h1>
+}}}
+
+]]]

@@ -1,0 +1,12 @@
+{
+  title: "Asociación de variables en componentes Svelte"  
+}
+
+@text[[[
+
+Bindings
+@ulist{
+  @{Numeric}
+}
+
+]]]
