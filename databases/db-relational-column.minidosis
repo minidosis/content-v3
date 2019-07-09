@@ -1,5 +1,5 @@
-{
-  title: "Columna"
+@graph{
+  @title{Columna}
 }
 
 @text{

@@ -1,12 +1,12 @@
-{
-  title: "Asociación de variables en componentes Svelte"  
+@graph{
+  @title{Asociación de variables en componentes Svelte}
 }
 
 @text[[[
 
 Bindings
 @ulist{
-  @{Numeric}
+  @row{Numeric}
 }
 
 ]]]

@@ -1,6 +1,6 @@
-{
-  title: "Relación"
-  children: {
+@graph{
+  @title{Relación}
+  @children{
     db-relational-column
     db-relational-row
     db-relational-primary-key

@@ -1,20 +1,20 @@
-{
-  title: "Lógica en componentes Svelte"  
+@graph{
+  @title{Lógica en componentes Svelte}
 }
 
 @text[[[
 
 Logic
 @ulist{
-  @{@code{if} blocks}
-  @{@code{else} blocks}
-  @{@code{else if} blocks}
-  @{@code{each} blocks
+  @row{@code{if} blocks}
+  @row{@code{else} blocks}
+  @row{@code{else if} blocks}
+  @row{@code{each} blocks
     @ulist{
       @{Keys}
     }
   }
-  @{@code{await} blocks}
+  @row{@code{await} blocks}
 }
 
 ]]]

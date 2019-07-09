@@ -1,6 +1,6 @@
-{
-  title: "Intérprete"
-  bases: { program }
+@graph{
+  @title{Intérprete}
+  @bases{ program }
 }
 
 @text{

@@ -1,6 +1,6 @@
-{
-  title: "Operador"
-  children: { token }
+@graph{
+  @title{Operador}
+  @children{ token }
 }
 
 @text{

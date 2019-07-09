@@ -1,12 +1,7 @@
-{
-  title: "C"
-  bases: { prog-lang }
-  children: {
-    c-integer-division
-    c-type
-    c-statement-control-for
-    c-statement-control-while
-  }
+@graph{
+  @title{C}
+  @bases{ prog-lang }
+  @children{c-integer-division, c-type, c-statement-control-for, c-statement-control-while}
 }
 
 @text{

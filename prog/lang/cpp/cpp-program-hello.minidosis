@@ -1,13 +1,13 @@
-{
-  title: "Hola Mundo (C++)"
-  children: {
+@graph{
+  @title{Hola Mundo (C++)}
+  @children{
     statement
   }
 }
 
 @text{
 Copia el siguiente texto en tu editor:
-@pre(c++)[[
+@pre(cpp)[[
 #include <iostream>
 using namespace std;
 

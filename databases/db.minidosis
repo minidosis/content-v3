@@ -1,6 +1,6 @@
-{
-  title: "Base de Datos"
-  children: { db-types }
+@graph{
+  @title{Base de Datos}
+  @children{ db-types }
 }
 
 @text{

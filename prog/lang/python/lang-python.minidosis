@@ -1,6 +1,6 @@
-{
-  title: "Python"
-  bases: { prog-lang }
+@graph{
+  @title{Python}
+  @bases{ prog-lang }
 }
 
 @text{

@@ -1,5 +1,5 @@
-{
-  title: "Estilo de componentes Svelte"
+@graph{
+  @title{Estilo de componentes Svelte}
 }
 
 @text[[[

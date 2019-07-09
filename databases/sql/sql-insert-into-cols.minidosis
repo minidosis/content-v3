@@ -1,6 +1,6 @@
-{
-  title: "INSERT (indicando columnas)"
-  bases: { sql-insert }
+@graph{
+  @title{INSERT (indicando columnas)}
+  @bases{sql-insert}
 }
 
 @text{

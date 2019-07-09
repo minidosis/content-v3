@@ -1,6 +1,6 @@
-{
-  title: "SQL"
-  children: {
+@graph{
+  @title{SQL}
+  @children{
     sql-create-table
     sql-drop-table
     sql-insert
@@ -18,19 +18,19 @@ sus datos.
 
 Los comandos para crear y borrar tablas son:
 @ulist{
-  @{@minidosis(sql-create-table){@code{CREATE TABLE}}, para crear tablas}
-  @{@minidosis(sql-drop-table){@code{DROP TABLE}}, para borrar tablas}
+  @row{@minidosis(sql-create-table){@code{CREATE TABLE}}, para crear tablas}
+  @row{@minidosis(sql-drop-table){@code{DROP TABLE}}, para borrar tablas}
 }
 
 Los comandos para manipular @minidosis(db-relational-row){filas} son:
 @ulist{
-  @{@minidosis(sql-insert){@code{INSERT}}, para insertar filas}
-  @{@minidosis(sql-update){@code{UPDATE}}, para actualizar filas}
-  @{@minidosis(sql-delete){@code{DELETE}}, para borrar filas}
+  @row{@minidosis(sql-insert){@code{INSERT}}, para insertar filas}
+  @row{@minidosis(sql-update){@code{UPDATE}}, para actualizar filas}
+  @row{@minidosis(sql-delete){@code{DELETE}}, para borrar filas}
 }
 
 Los comandos para hacer consultas son:
 @ulist{
-  @{@minidosis(sql-select){@code{SELECT}}, para consultar filas}
+  @row{@minidosis(sql-select){@code{SELECT}}, para consultar filas}
 }
 }

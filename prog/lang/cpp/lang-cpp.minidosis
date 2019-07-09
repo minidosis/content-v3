@@ -1,7 +1,7 @@
-{
-  title: "C++"
-  bases: { prog-lang }
-  children: {
+@graph{
+  @title{C++}
+  @bases{ prog-lang }
+  @children{
     cpp-keyword
     cpp-type
     cpp-program-hello
@@ -13,5 +13,5 @@ El lenguaje de programación C++ proviene del lenguaje @minidosis(c-lang){C}.
 
 @minidosis(cpp-program-hello){El Primer Programa}
 
-@minidosis(c-increment){Incremento}
+@minidosis(c-expression-increment){Incremento}
 }

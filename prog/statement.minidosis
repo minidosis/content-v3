@@ -1,6 +1,6 @@
-{
-  title: "Instrucción"
-  children: {
+@graph{
+  @title{Instrucción}
+  @children{
     expression
     keyword
   }

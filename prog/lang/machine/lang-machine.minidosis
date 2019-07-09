@@ -1,8 +1,6 @@
-{
-  title: "Código Máquina"
-  children: {
-    byte
-  }
+@graph{
+  @title{Código Máquina}
+  @children{ byte }
 }
 
 @text{

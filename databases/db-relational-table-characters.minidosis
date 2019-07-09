@@ -1,6 +1,6 @@
-{
-  title: "Tabla de Personajes"
-  bases: { db-relational-table }
+@graph{
+  @title{Tabla de Personajes}
+  @bases{ db-relational-table }
 }
 
 @text{

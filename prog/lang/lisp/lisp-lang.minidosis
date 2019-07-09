@@ -1,6 +1,6 @@
-{
-  title: "Lisp"
-  bases: { prog-lang }
+@graph{
+  @title{Lisp}
+  @bases{ prog-lang }
 }
 
 @text{

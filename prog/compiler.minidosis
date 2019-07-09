@@ -1,6 +1,6 @@
-{
-  title: "El Compilador"
-  bases: { program }
+@graph{
+  @title{El Compilador}
+  @bases{ program }
 }
 
 @text{

@@ -1,6 +1,6 @@
-{
-  title: "Tipos en C++"
-  bases: { type }
+@graph{
+  @title{Tipos en C++}
+  @bases{ type }
 }
 
 @text{

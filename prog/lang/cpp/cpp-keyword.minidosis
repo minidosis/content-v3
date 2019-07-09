@@ -1,6 +1,6 @@
-{
-  title: "Palabras reservadas en C++"
-  bases: { keyword }
+@graph{
+  @title{Palabras reservadas en C++}
+  @bases{ keyword }
 }
 
 @text{

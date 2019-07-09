@@ -1,5 +1,5 @@
-{
-  title: "SELECT"
+@graph{
+  @title{SELECT}
 }
 
 @text{

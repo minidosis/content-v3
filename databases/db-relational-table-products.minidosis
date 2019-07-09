@@ -1,6 +1,6 @@
-{
-  title: "Tabla de Productos"
-  bases: { db-relational-table }
+@graph{
+  @title{Tabla de Productos}
+  @bases{ db-relational-table }
 }
 
 @text{

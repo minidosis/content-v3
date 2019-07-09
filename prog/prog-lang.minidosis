@@ -1,6 +1,6 @@
-{
-  title: "Lenguaje de Programación"
-  children: { 
+@graph{
+  @title{Lenguaje de Programación}
+  @children{ 
     keyword
     type
     expression 

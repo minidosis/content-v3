@@ -1,6 +1,6 @@
-{
-  title: "Tipo Booleano"
-  bases: { type }
+@graph{
+  @title{Tipo Booleano}
+  @bases{ type }
 }
 
 @text{

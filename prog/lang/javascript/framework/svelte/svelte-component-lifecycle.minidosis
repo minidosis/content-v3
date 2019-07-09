@@ -1,6 +1,6 @@
-{
-  title: "Ciclo de vida de un componente"
-  children: {
+@graph{
+  @title{Ciclo de vida de un componente}
+  @children{
     svelte-component-lifecycle-onmount
     svelte-component-lifecycle-ondestroy
     svelte-component-lifecycle-update-before
@@ -15,13 +15,13 @@ componente es creado, y finaliza al ser destruido. Unas cuantas funciones
 permiten ejecutar código en momentos clave de la vida del componente:
 
 @ulist{
-  @{@minidosis(svelte-component-lifecycle-onmount){@code{onMount}}, 
+  @row{@minidosis(svelte-component-lifecycle-onmount){@code{onMount}}, 
     al montar el componente.}
-  @{@minidosis(svelte-component-lifecycle-ondestroy){@code{onDestroy}}, 
+  @row{@minidosis(svelte-component-lifecycle-ondestroy){@code{onDestroy}}, 
     en el momento en el que el componente es destruido.}
-  @{@minidosis(svelte-component-lifecycle-update-before){@code{beforeUpdate}}, 
+  @row{@minidosis(svelte-component-lifecycle-update-before){@code{beforeUpdate}}, 
     antes de que el componente se actualize.}
-  @{@minidosis(svelte-component-lifecycle-after-before){@code{afterUpdate}}, 
+  @row{@minidosis(svelte-component-lifecycle-after-before){@code{afterUpdate}}, 
     después de que el componente se actualize.}
 
   @comment{

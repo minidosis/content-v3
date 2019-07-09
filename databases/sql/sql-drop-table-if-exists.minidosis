@@ -1,6 +1,6 @@
-{
-  title: "DROP TABLE IF EXISTS"
-  bases: { sql-drop-table }
+@graph{
+  @title{DROP TABLE IF EXISTS}
+  @bases{sql-drop-table}
 }
 
 @text{

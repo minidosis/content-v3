@@ -1,6 +1,6 @@
-{
-  title: "Tipos en Bases de Datos"
-  bases: { type }
+@graph{
+  @title{Tipos en Bases de Datos}
+  @bases{ type }
 }
 
 @text{

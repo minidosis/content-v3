@@ -1,6 +1,6 @@
-{
-  title: "Expresión"
-  children: {
+@graph{
+  @title{Expresión}
+  children{
     type
     value
     operator

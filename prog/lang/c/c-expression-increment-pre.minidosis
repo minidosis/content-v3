@@ -1,6 +1,6 @@
-{
-  title: "Pre-Incremento (C)"
-  bases: { c-expression-increment }
+@graph{
+  @title{Pre-Incremento (C)}
+  @bases{ c-expression-increment }
 }
 
 @text{

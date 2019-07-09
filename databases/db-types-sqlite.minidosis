@@ -1,6 +1,6 @@
-{
-  title: "Tipos en SQLite"
-  bases: { db-types }
+@graph{
+  @title{Tipos en SQLite}
+  @bases{ db-types }
 }
 
 @text{

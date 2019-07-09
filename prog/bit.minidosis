@@ -1,5 +1,5 @@
-{
-  title: "Bit"
+@graph{
+  @title{Bit}
 }
 
 @text{

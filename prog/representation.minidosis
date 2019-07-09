@@ -1,5 +1,5 @@
-{
-  title: "Representación"
+@graph{
+  @title{Representación}
 }
 
 @text{

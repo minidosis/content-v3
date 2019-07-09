@@ -1,6 +1,6 @@
-{
-  title: "Lenguaje de Programación Declarativo"
-  bases: { prog-lang }
+@graph{
+  @title{Lenguaje de Programación Declarativo}
+  @bases{ prog-lang }
 }
 
 @text{

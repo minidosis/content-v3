@@ -1,7 +1,26 @@
-{
-  title: "Componente"
+@graph{
+  @title{Componente}
 }
 
-@text{
-Componente
+@text<<<<
+
+En muchos @em{frameworks} web, un componente es una abstracción de una porción
+de una página web, y suele agrupar HTML, CSS y Javascript en una unidad que permite
+su fácil reutilización. 
+
+Ejemplos de componentes pueden ser:
+@ulist{
+  @row{Un ítem en una lista de productos.}
+  @row{Un tuit en el @em{timeline} de Twitter.}
+  @row{Un grupo de estrellas que sirven para puntuar películas, recetas o aplicaciones.}
+  @row{Una opción de menú}
 }
+Cualquier parte de una página que se repite es susceptible de ser convertida
+en componente para hacer más sencilla su utilización.
+
+En la mayoría de frameworks, los componentes se utilizan como si fueran nuevos
+elementos HTML inventados por los usuarios. En realidad, existe un nuevo
+estándar llamado @minidosis(component-web){Web Components} que pretende
+estandarizar esta idea.
+
+>>>>

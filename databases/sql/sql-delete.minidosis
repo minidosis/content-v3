@@ -1,6 +1,6 @@
-{
-  title: "DELETE"
-  related: {
+@graph{
+  @title{DELETE}
+  @related{
     db-relational-table-characters
     db-relational-table-products
   }

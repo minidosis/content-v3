@@ -1,9 +1,7 @@
-{
-  title: "Mostrar una variable"
-  bases: { svelte-component }
-  children: {
-    svelte-component-data
-  }
+@graph{
+  @title{Mostrar una variable}
+  @bases{ svelte-component }
+  @children{ svelte-component-data }
 }
 
 @text[[[

@@ -1,5 +1,5 @@
-{
-  title: "INSERT"
+@graph{
+  @title{INSERT}
 }
 
 @text{
@@ -17,9 +17,9 @@ Para evitar especificar todos los campos o bien ponerlos en otro orden, se puede
 Ejemplos:
 
 @ulist{
-  @{Si tenemos la @minidosis(db-relational-table-characters){tabla de personajes}, 
-    para insertar un nuevo personaje haremos:
-    @pre(sql){INSERT INTO Personajes VALUES(6, 'Olaf', 'M', 'Frozen', 8.8);}}
+  @row{Si tenemos la @minidosis(db-relational-table-characters){tabla de personajes}, 
+       para insertar un nuevo personaje haremos:
+       @pre(sql){INSERT INTO Personajes VALUES(6, 'Olaf', 'M', 'Frozen', 8.8);}}
 }
 
 @comment{Bla bla esto no se va a ver...}

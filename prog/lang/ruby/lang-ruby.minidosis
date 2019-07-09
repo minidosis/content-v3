@@ -1,6 +1,6 @@
-{
-  title: "Ruby"
-  bases: { prog-lang }
+@graph{
+  @title{Ruby}
+  @bases{ prog-lang }
 }
 
 @text{

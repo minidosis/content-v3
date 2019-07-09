@@ -1,6 +1,6 @@
-{
-  title: "Asociación de variables numéricas"
-  bases: { svelte-component-bind }
+@graph{
+  @title{Asociación de Variables Numéricas}
+  @bases{ svelte-component-bind }
 }
 
 @text[[[

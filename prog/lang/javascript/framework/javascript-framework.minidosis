@@ -1,6 +1,6 @@
-{
-  title: "Framework Javascript"
-  children: { component }
+@graph{
+  @title{Framework Javascript}
+  @children{ component }
 }
 
 @text{

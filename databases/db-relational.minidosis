@@ -1,7 +1,7 @@
-{
-  title: "Base de Datos Relacional"
-  bases: { db }
-  children: {
+@graph{
+  @title{Base de Datos Relacional}
+  @bases{ db }
+  @children{
     sql
     db-relational-table
     db-relational-relation
@@ -12,10 +12,10 @@
 Una @minidosis(db){Base de Datos} Relacional@footnote(1):
 
 @ulist{
-@{Utiliza distintas @minidosis(db-relational-table){tablas} para almacenar los datos.}
-@{@minidosis(db-relational-relation){Relaciona} las tablas entre sí usando @minidosis(db-relational-column){columnas} con valores compartidos.}
-@{Utiliza diversos @minidosis(db-types){tipos de datos} para las columnas de cada tabla.}
-@{Dispone de @minidosis(sql){SQL}, un lenguaje específico (y con un estándar) para poder hacer consultas y modificaciones.}
+@row{Utiliza distintas @minidosis(db-relational-table){tablas} para almacenar los datos.}
+@row{@minidosis(db-relational-relation){Relaciona} las tablas entre sí usando @minidosis(db-relational-column){columnas} con valores compartidos.}
+@row{Utiliza diversos @minidosis(db-types){tipos de datos} para las columnas de cada tabla.}
+@row{Dispone de @minidosis(sql){SQL}, un lenguaje específico (y con un estándar) para poder hacer consultas y modificaciones.}
 }
 
 @footnote(1){La palabra "relación" se refiere aquí, desafortunadamente, a dos

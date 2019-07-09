@@ -1,12 +1,12 @@
-{
-  title: "UPDATE"
-  related: {
+@graph{
+  @title{UPDATE}
+  @related{
     db-relational-table-characters
     db-relational-table-products
   }
 }
 
-@text{
+@text[[[[[[[[[[[[
 El comando @code{UPDATE} más simple tiene la sintaxis:
 
 @pre(sql,display){
@@ -30,4 +30,4 @@ Ejemplos:
 @row{En la @minidosis(db-relational-table-products){tabla de productos}, para incrementar un 10% el precio de todos los productos:
 @pre(sql){UPDATE Productos SET precio = precio * 1.1;}}
 }
-}
+]]]]]]]]]]]]

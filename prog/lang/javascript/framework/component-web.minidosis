@@ -1,0 +1,10 @@
+@graph{
+  @title{Web Components}
+}
+
+@text<<<<
+
+@a(https://www.webcomponents.org/){Estándar definido por el W3C} que permite definir 
+componentes.
+
+>>>>

@@ -1,6 +1,6 @@
-{
-  title: "Tabla"
-  children: {
+@graph{
+  @title{Tabla}
+  @children{
     db-relational-column
     db-relational-row
   }
@@ -22,6 +22,6 @@ Por ejemplo, la siguiente tabla almacena datos de personas:
 @row{@{Harpo}@{Marx}@{39}}
 }
 
-Las entidades son cada uno de los 3 hermanos Marx, y para cada uno tenemos sus
+Las entidades son los 3 hermanos Marx, y para cada uno de ellos tenemos sus
 atributos o campos: nombre, apellido y edad. 
 }

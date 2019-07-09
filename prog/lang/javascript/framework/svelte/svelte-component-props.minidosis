@@ -1,27 +1,31 @@
-{
-  title: "Propiedades de componentes"
+@graph{
+  @title{Propiedades de componentes}
 }
 
-@text[[[
+@text<<<<<
 
-Las propiedades en componentes Svelte son simplemente variables a las
-que se ha marcado con @code{export}@footnote(1)
+Al @minidosis(svelte-component-call){llamar} a un componente, los atributos del
+elemento HTML se pasan como propiedades (o @em{props}) al componente
+
+@pre(html)[[[
+<MiComponente text="hola" height={80} />
+]]]
+
+Estos @em{props} son como parámetros y en componentes Svelte son
+simplemente variables a las que se ha marcado con @code{export}@footnote(1)
 @pre(svelte)[[[
 <script>
-  export let text;
-  export let height;
+  @b{export} let text;
+  @b{export} let height;
 </script>
 ]]]
 
-En una @minidosis(svelte-component-call){llamada a otro componente}, los
-valores de estas variables se obtienen de la llamada:
-@pre(html)[[[
-<MyComponent text="hola" height={80} />
-]]]
+En este ejemplo el texto @code{'hola'} se asignaria a @code{text} y el valor
+@code{80} a @code{height}.
 
 
 @footnote(1){
 Aquí Svelte usa @code{export} con un  significado distinto del estándar.
 }
 
-]]]
+>>>>>

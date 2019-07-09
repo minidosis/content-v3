@@ -1,7 +1,7 @@
-{
-  title: "Componentes en Svelte"
-  bases: { component }
-  children: { 
+@graph{
+  @title{Componentes en Svelte}
+  @bases{ component }
+  @children{ 
     svelte-component-props
     svelte-component-styling
     svelte-component-lifecycle
@@ -25,14 +25,14 @@ Esto hace que un componente sea autocontenido.
 
 Los componentes:
 @ulist{
-  @{tienen @minidosis(svelte-component-props){propiedades} (o @em{props}),}
-  @{tienen @minidosis(svelte-component-data){datos internos},}
-  @{pueden definir @minidosis(svelte-component-styling){estilos propios},}
-  @{se pueden @minidosis(svelte-component-call){llamar entre ellos},}
-  @{definen una @minidosis(svelte-component-logic){lenguaje específico} para la generación condicional e iterativa del HTML,}
-  @{permiten @minidosis(svelte-component-bind){asociar variables} con elementos DOM de tipo @code{<input>}.}
-  @{pueden @minidosis(svelte-component-events){detectar eventos},}
-  @{tienen funciones asociadas al @minidosis(svelte-component-lifecycle){ciclo de vida},}
+  @row{tienen @minidosis(svelte-component-props){propiedades} (o @em{props}),}
+  @row{tienen @minidosis(svelte-component-data){datos internos},}
+  @row{pueden definir @minidosis(svelte-component-styling){estilos propios},}
+  @row{se pueden @minidosis(svelte-component-call){llamar entre ellos},}
+  @row{definen una @minidosis(svelte-component-logic){lenguaje específico} para la generación condicional e iterativa del HTML,}
+  @row{permiten @minidosis(svelte-component-bind){asociar variables} con elementos DOM de tipo @code{<input>}.}
+  @row{pueden @minidosis(svelte-component-events){detectar eventos},}
+  @row{tienen funciones asociadas al @minidosis(svelte-component-lifecycle){ciclo de vida},}
 }
 
 ]]]

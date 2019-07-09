@@ -1,5 +1,5 @@
-{
-  title: "Detección de eventos"
+@graph{
+  @title{Detección de eventos}
 }
 
 @text[[[

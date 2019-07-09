@@ -1,8 +1,6 @@
-{
-  title: "Tipo"
-  children: {
-    byte
-  }
+@graph{
+  @title{Tipo}
+  @children{ byte }
 }
 
 @text{

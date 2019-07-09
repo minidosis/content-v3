@@ -1,6 +1,6 @@
-{
-  title: "Byte"
-  children: {
+@graph{
+  @title{Byte}
+  @children{
     bit
   }
 }

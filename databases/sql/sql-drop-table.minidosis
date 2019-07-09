@@ -1,5 +1,5 @@
-{
-  title: "DROP TABLE"
+@graph{
+  @title{DROP TABLE}
 }
 
 @text{
