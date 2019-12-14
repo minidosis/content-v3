@@ -1,11 +1,10 @@
-@graph{
+@graph
   @title{Binario}
-}
 
-@text{
-Algo binario es algo con sólo dos opciones posibles. En el mundo de los
-ordenadores, "binario" suele referirse a un conjunto de datos
-@minidosis(representation){representados} con secuencias de unos y ceros, ya que
-los ordenadores trabajan directamente con @minidosis(bit){bits}, cuyos posibles
-valores son solo dos: 1 o 0.
-}
+@text
+  Algo binario es algo con sólo dos opciones posibles. En el mundo de los
+  ordenadores, "binario" suele referirse a un conjunto de datos
+  @minidosis(representation){representados} con secuencias de unos y ceros, ya que
+  los ordenadores trabajan directamente con @minidosis(bit){bits}, cuyos posibles
+  valores son solo dos: 1 o 0.
+  

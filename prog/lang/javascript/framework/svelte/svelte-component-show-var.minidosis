@@ -1,21 +1,20 @@
-@graph{
+@graph
   @title{Mostrar una variable}
+
   @bases{ svelte-component }
+
   @children{ svelte-component-data }
-}
 
-@text[[[
 
-El siguiente componente Svelte tiene como @minidosis(svelte-component-data){dato
-interno} la variable @code{name} y la muestra dentro de un título de tipo
-@code{h1}, pasando primero todas sus letras a mayúsculas
+@text
+  El siguiente componente Svelte tiene como 
+  @minidosis(svelte-component-data){dato interno}
+  la variable @code{name} y la muestra dentro de un título de tipo @code{h1}, 
+  pasando primero todas sus letras a mayúsculas
+  
+  @pre(svelte)
+    <script>
+      let name = 'world';
+    </script>
 
-@pre(svelte){{{
-<script>
-  let name = 'world';
-</script>
-
-<h1>Hello {name.toUpperCase()}!</h1>
-}}}
-
-]]]
+    <h1>Hello {name.toUpperCase()}!</h1>

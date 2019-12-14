@@ -1,24 +1,20 @@
-@graph{
+@graph
   @title{Asociación de Variables Numéricas}
-  @bases{ svelte-component-bind }
-}
+  @bases
+    svelte-component-bind
 
-@text[[[
-
-En el caso de asociaciones numéricas, aunque el DOM trabaja siempre con
-texto, Svelte se encarga automáticamente de las conversiones si
-el componente usado tiene los atributos @code{type=number} o @code{type=range}
-@pre(svelte){{
-<script>
-  let numCoins = 7;
-</script>
-
-<input @b{type=number} bind:value={numCoins} />
-}}
-
-Los atributos extra @code{min} y @code{max} permiten poner límites:
-@pre(svelte){{
-<input type=number bind:value={numCoins} @b{min}=0 @b{max}=10 />
-}}
-
-]]]
+@text
+  En el caso de asociaciones numéricas, aunque el DOM trabaja siempre con
+  texto, Svelte se encarga automáticamente de las conversiones si
+  el componente usado tiene los atributos @code{type=number} o @code{type=range}
+  
+  @pre(svelte)
+    <script>
+      let numCoins = 7;
+    </script>
+    <input @b{type=number} bind:value={numCoins} />
+  
+  Los atributos extra @code{min} y @code{max} permiten poner límites:
+  
+  @pre(svelte)
+    <input type=number bind:value={numCoins} @b{min}=0 @b{max}=10 />

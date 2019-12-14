@@ -1,12 +1,9 @@
-@graph{
+@graph
   @title{Instrucción}
-  @children{
+  @children
     expression
     keyword
-  }
-}
 
-@text{
-Una instrucción en un lenguaje de programación indica al ordenador
-que debe realizar alguna operación. 
-}
+@text
+  Una instrucción en un lenguaje de programación indica al ordenador
+  que debe realizar alguna operación. 

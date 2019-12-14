@@ -1,21 +1,21 @@
-@graph{
+@graph
   @title{Fila}
-}
 
-@text{
-En @minidosis(dbs-relational){bases de datos relacionales}, una @b{fila}
-(también @b{entidad}, @b{objeto} o @b{tupla}) en una
-@minidosis(db-relational-table){tabla} se corresponde con un solo objeto
-representado por sus diferentes atributos.
+@text
+  En @minidosis(dbs-relational){bases de datos relacionales}, una @b{fila}(también @b{entidad}, @b{objeto} o @b{tupla}) en una
+  @minidosis(db-relational-table){tabla} se corresponde con un solo objeto
+  representado por sus diferentes atributos.
+  Por ejemplo, en la siguiente tabla @code{Colores}
+  
+  @table
+    @header
+      @{nombre}@{hex}
+    @row
+      @{rojo}@{@code<#ff0000>}
+    @row
+      @{azul}@{@code<#0000ff>}
+    @row
+      @{verde}@{@code<#00ff00>}
 
-Por ejemplo, en la siguiente tabla @code{Colores}
-
-@table{
-@header{@{nombre}@{hex}}
-@row{@{rojo}@{@code{#ff0000}}}
-@row{@{azul}@{@code{#0000ff}}}
-@row{@{verde}@{@code{#00ff00}}}
-}
-
-la primera fila guarda los dos atributos @code{nombre} y @code{hex} para el color rojo.
-}
+  la primera fila guarda los dos atributos @code{nombre} y @code{hex} para el color rojo.
+  

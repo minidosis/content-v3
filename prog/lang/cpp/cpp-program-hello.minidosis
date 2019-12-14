@@ -1,19 +1,18 @@
-@graph{
+@graph
   @title{Hola Mundo (C++)}
-  @children{
+  @children
     statement
-  }
-}
 
-@text{
-Copia el siguiente texto en tu editor:
-@pre(cpp)[[
-#include <iostream>
-using namespace std;
+@text
+  Copia el siguiente texto en tu editor:
 
-int main() {
-  cout << "hola" << endl;
-}]]
+  @pre(cpp)
+    #include <iostream>
+    using namespace std;
 
-Compila y comprueba que la salida realmente es "hola".
-}
+    int main() {
+      cout << "hola" << endl;
+    }
+  
+  Compila y comprueba que la salida realmente es "hola".
+  

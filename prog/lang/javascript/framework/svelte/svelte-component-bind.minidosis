@@ -1,21 +1,18 @@
-@graph{
+@graph
   @title{Asociación Bidireccional en Svelte}
-  @bases{ two-way-binding }
-}
+  @bases
+    two-way-binding
 
-@text[[[
-
-Svelte permite el @minidosis(two-way-binding){@em{two-way-binding}} con el
-atributo @b{@code{bind}}
-@pre(html)[[
-<script>
-  let variable = 'texto'
-</script>
-
-<input @b{bind:value}={variable} /> 
-]]
-
-Svelte trata las @minidosis(svelte-component-bind-number){asociaciones
-numéricas} de forma especial.
-
-]]]
+@text
+  Svelte permite el @minidosis(two-way-binding){@em<two-way-binding>} con el
+  atributo @b<@code{bind}>
+  
+  @pre(html)
+    <script>
+      let variable = 'texto'
+    </script>
+    <input @b{bind:value}={variable} /> 
+  
+  Svelte trata las @minidosis(svelte-component-bind-number){asociaciones numéricas}
+  de forma especial.
+  

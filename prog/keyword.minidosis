@@ -1,11 +1,11 @@
-@graph{
+@graph
   @title{Palabra reservada}
-  @children{ token }
-}
+  @children
+    token
 
-@text{
-En un lenguaje de programación, una palabra reservada es un
-@minidosis(token){token} que tiene un significado especial en el lenguaje y que
-no puede usarse para nombrar @minidosis(variable){variables}, funciones o
-estructuras de usuario.
-}
+@text
+  En un lenguaje de programación, una palabra reservada es un
+  @minidosis(token){token} que tiene un significado especial en el lenguaje y que
+  no puede usarse para nombrar @minidosis(variable){variables}, funciones o
+  estructuras de usuario.
+  

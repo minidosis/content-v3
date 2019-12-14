@@ -1,13 +1,12 @@
-@graph{
+@graph
   @title{Tipo Entero}
-  @bases{ type }
-  @related{ twos-complement }
-}
+  @bases
+    type
+  @related
+    twos-complement
 
-@text{
-
-El @minidosis(type){tipo} entero permite representar números enteros. La mayoría
-de CPUs representan los enteros en @minidosis(twos-complement){complemento a
-dos} (@em{two's complement})...
-
-}
+@text
+  El @minidosis(type){tipo} entero permite representar números enteros. 
+  La mayoría de CPUs representan los enteros en 
+  @minidosis(twos-complement){complemento a dos} (@em{two's complement})...
+  

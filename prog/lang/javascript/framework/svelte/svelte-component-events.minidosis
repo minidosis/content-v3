@@ -1,9 +1,6 @@
-@graph{
+@graph
   @title{Detección de eventos}
-}
 
-@text[[[
-
-TODO.
-
-]]]
+@text
+  TODO.
+  

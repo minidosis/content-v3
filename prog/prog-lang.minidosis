@@ -1,16 +1,17 @@
-@graph{
+@graph
   @title{Lenguaje de Programación}
-  @children{ 
+  @children
     keyword
     type
     expression 
     statement 
-  }
-}
 
-@text{
-Existen muchos tipos de lenguajes de programación, pero los lenguajes que los
-ordenadores pueden ejecutar directamente son @minidosis(lang-machine){lenguajes
-máquina}. El resto de lenguajes son @minidosis(interpreter){interpretados} o
-@minidosis(compiler){compilados}.
-}
+@text
+  Existen muchos tipos de lenguajes de programación, pero los lenguajes que los
+  ordenadores pueden ejecutar directamente son 
+  @minidosis(lang-machine){lenguajes máquina}. 
+  El resto de lenguajes son 
+  @minidosis(interpreter){interpretados} o
+  @minidosis(compiler){compilados}.
+  
+

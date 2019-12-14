@@ -1,24 +1,22 @@
-@graph{
+@graph
   @title{Asociación Bidireccional}
-}
 
-@text<<<<
+@text
+  Si tenemos una caja de texto en HTML y una variable en Javascript y queremos que
+  ambas representen la misma cosa hay que sincronizar sus valores, porque son
+  distintos. La sincronización implica copiar los valores, y hay dos
+  direcciones de copia:
 
-Si tenemos una caja de texto en HTML y una variable en Javascript y queremos que
-ambas representen la misma cosa hay que sincronizar sus valores, porque son
-distintos. La sincronización implica copiar los valores, y hay dos
-direcciones de copia:
+  @ulist
+    @row
+      de la caja de texto a la variable (como cuando queremos obtener los valores
+      de un formulario para hacer algo con ellos)
 
-@ulist{
-  @row{de la caja de texto a la variable (como cuando queremos obtener los valores
-  de un formulario para hacer algo con ellos)} 
+    @row
+      de la variable a la caja de texto (como cuando inicializamos un formulario
+      con valores ya guardados)
+
+  Realizar manualmente la sincronización sin cometer errores es costoso, así que
+  muchos @minidosis(javascript-framework){@em<frameworks> Javascript} proporcionan
+  mecanismos para automatizarla.
   
-  @row{de la variable a la caja de texto (como cuando inicializamos un formulario
-  con valores ya guardados)}
-}
-
-Realizar manualmente la sincronización sin cometer errores es costoso, así que
-muchos @minidosis(javascript-framework){@em{frameworks} Javascript} proporcionan
-mecanismos para automatizarla.
-
->>>>

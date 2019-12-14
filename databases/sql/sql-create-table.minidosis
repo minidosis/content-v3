@@ -1,37 +1,36 @@
-@graph{
+@graph
   @title{CREATE TABLE}
-}
 
-@text{
-El comando @code{CREATE TABLE} tiene la sintaxis:
+@text
+  El comando @code{CREATE TABLE} tiene la sintaxis:
 
-@pre(sql,display){CREATE TABLE @box{nombre}(@box{a1}, @box{a2}, ...);}
+  @pre(sql, display)
+    CREATE TABLE @box{nombre}(@box{a1}, @box{a2}, ...);
+    
+  El @box{nombre} es libre, siguiendo unas @minidosis(sql-table-name-rules){reglas}. 
+  Entre paréntesis hay una lista de los atributos (@box{a1}, @box{a1}, etc.) o 
+  @minidosis(db-relational-column){columnas}, en el formato
 
-El @box{nombre} es libre, siguiendo unas
-@minidosis(sql-table-name-rules){reglas}. Entre paréntesis hay una lista de los
-atributos (@box{a1}, @box{a1}, etc.) o @minidosis(db-relational-column){columnas}, en el
-formato
+  @pre(sql, display)
+    @box{nombre} @box{tipo}
 
-@pre(sql,display){@box{nombre} @box{tipo}}
+  Ejemplos:
 
- 
+  @ulist
+    @row
+      Tabla para almacenar personas con nombre, apellido y edad:
+      @pre(sql)
+        CREATE TABLE Persons(
+          nombre TEXT, 
+          apellido TEXT, 
+          edad INTEGER
+        );
 
-Ejemplos:
-@ulist{
-
-@row{Tabla para almacenar personas con nombre, apellido y edad:
-@pre(sql){CREATE TABLE Persons(
-  nombre TEXT, 
-  apellido TEXT, 
-  edad INTEGER
-);}}
-
-@row{Tabla para almacenar animales con especie y peso:
-@pre(sql){CREATE TABLE Animales(
-  especie TEXT, 
-  peso REAL
-);}}
-  
-}
-
-}
+    @row
+      Tabla para almacenar animales con especie y peso:
+      @pre(sql)
+        CREATE TABLE Animales(
+          especie TEXT, 
+          peso REAL
+        );
+        

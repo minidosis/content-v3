@@ -1,9 +1,12 @@
-@graph{
+@graph
   @title{C}
-  @bases{ prog-lang }
-  @children{c-integer-division, c-type, c-statement-control-for, c-statement-control-while}
-}
+  @bases
+    prog-lang
+  @children
+    c-integer-division
+    c-type
+    c-statement-control-for
+    c-statement-control-while
 
-@text{
-El lenguaje de programación C.
-}
+@text
+  El lenguaje de programación C.

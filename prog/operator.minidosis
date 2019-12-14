@@ -1,16 +1,16 @@
-@graph{
+@graph
   @title{Operador}
-  @children{ token }
-}
+  @children
+    token
 
-@text{
-Un operador es un símbolo que representa una operación, con frecuencia
-inspirada en las matemáticas.
+@text
+  Un operador es un símbolo que representa una operación, con frecuencia
+  inspirada en las matemáticas.
 
-Los @minidosis(prog-lang){lenguajes de programación} tienen diferentes
-operadores para especificar operaciones como la suma, la resta, la concatenación
-de cadenas de caracteres, o relaciones como la comparación, mayor-que, y también
-otros para acceso a campos y a casillas de tablas.
-
-Los operadores son @minidosis(token){tokens}.
-}
+  Los @minidosis(prog-lang){lenguajes de programación} tienen diferentes
+  operadores para especificar operaciones como la suma, la resta, la concatenación
+  de cadenas de caracteres, o relaciones como la comparación, mayor-que, y también
+  otros para acceso a campos y a casillas de tablas.
+  
+  Los operadores son @minidosis(token){tokens}.
+  

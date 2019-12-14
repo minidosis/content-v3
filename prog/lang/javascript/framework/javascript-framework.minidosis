@@ -1,8 +1,8 @@
-@graph{
+@graph
   @title{Framework Javascript}
-  @children{ component }
-}
+  @children
+    component
 
-@text{
-Framework Javascript...
-}
+@text
+  Framework Javascript...
+

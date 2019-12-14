@@ -1,9 +1,9 @@
-@graph{
+@graph
   @title{Complemento a Dos}
-  @bases{ representation }
-  @related{ type-integer }
-}
+  @bases
+    representation
+  @related
+    type-integer
 
-@text{
-TODO.
-}
+@text
+  TODO.

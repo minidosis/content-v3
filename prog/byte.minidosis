@@ -1,10 +1,8 @@
-@graph{
+@graph
   @title{Byte}
-  @children{
+  @children
     bit
-  }
-}
 
-@text{
-Un @b{byte} es una secuencia de 8 @minidosis(bit){bits}.
-}
+@text
+  Un @b{byte} es una secuencia de 8 @minidosis(bit){bits}.
+  

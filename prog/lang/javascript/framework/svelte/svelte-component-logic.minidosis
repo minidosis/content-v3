@@ -1,20 +1,19 @@
-@graph{
+@graph
   @title{Lógica en componentes Svelte}
-}
 
-@text[[[
-
-Logic
-@ulist{
-  @row{@code{if} blocks}
-  @row{@code{else} blocks}
-  @row{@code{else if} blocks}
-  @row{@code{each} blocks
-    @ulist{
-      @{Keys}
-    }
-  }
-  @row{@code{await} blocks}
-}
-
-]]]
+@text
+  Logic
+  @ulist
+    @row
+      @code{if} blocks
+    @row
+      @code{else} blocks
+    @row
+      @code{else if} blocks
+    @row
+      @code{each} blocks
+      @ulist
+        @row{Keys}
+    @row
+      @code{await} blocks
+      

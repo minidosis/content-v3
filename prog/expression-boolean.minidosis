@@ -1,12 +1,10 @@
-@graph{
+@graph
   @title{Expresión Booleana}
-  @bases{ expression }
-  @children{
+  @bases{expression}
+  @children
     type-boolean
-  }
-}
 
-@text{
-Una expresión Booleana es una @minidosis(expression){expresión} cuyo resultado
-es un @minidosis(type-boolean){valor Booleano}.
-}
+@text
+  Una expresión Booleana es una @minidosis(expression){expresión} cuyo resultado
+  es un @minidosis(type-boolean){valor Booleano}.
+  

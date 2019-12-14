@@ -1,33 +1,36 @@
-@graph{
+@graph
   @title{UPDATE}
-  @related{
+  @related
     db-relational-table-characters
     db-relational-table-products
-  }
-}
 
-@text[[[[[[[[[[[[
-El comando @code{UPDATE} más simple tiene la sintaxis:
+@text
+  El comando @code{UPDATE} más simple tiene la sintaxis:
 
-@pre(sql,display){
-UPDATE @box{tabla} SET @box{col} = @box{expr}
-WHERE @box{cond};
-}
+  @pre(sql, display)
+    UPDATE @box{tabla} SET @box{col} = @box{expr}WHERE @box{cond};
 
-Este comando recorre la @box{tabla} entera, y
-actualiza la columna @box{col} al valor @box{expr} para aquellas
-@minidosis(db-relational-row){entidades} que cumplen la condición
-@box{cond}.
+  Este comando recorre la @box{tabla} entera, y
+  actualiza la columna @box{col} al valor @box{expr} para aquellas
+  @minidosis(db-relational-row){entidades} que cumplen la condición
+  @box{cond}.
 
-Ejemplos:
-@ulist{
-@row{En la @minidosis(db-relational-table-characters){tabla de personajes}, para cambiar la nota de Jack Sparrow a 7.8:
-@pre(sql){UPDATE Personajes SET nota = 7.8 WHERE id = 5;}}
+  Ejemplos:
+  @ulist
+    @row
+      En la @minidosis(db-relational-table-characters){tabla de personajes}, 
+      para cambiar la nota de Jack Sparrow a 7.8:
+      @pre(sql)
+        UPDATE Personajes SET nota = 7.8 WHERE id = 5;
 
-@row{En la @minidosis(db-relational-table-products){tabla de productos}, para cambiar el precio de las gomas de borrar:
-@pre(sql){UPDATE Productos SET precio = 7.49 WHERE id = 22989;}}
+    @row
+      En la @minidosis(db-relational-table-products){tabla de productos}, 
+      para cambiar el precio de las gomas de borrar:
+      @pre(sql)
+        UPDATE Productos SET precio = 7.49 WHERE id = 22989;
 
-@row{En la @minidosis(db-relational-table-products){tabla de productos}, para incrementar un 10% el precio de todos los productos:
-@pre(sql){UPDATE Productos SET precio = precio * 1.1;}}
-}
-]]]]]]]]]]]]
+    @row
+      En la @minidosis(db-relational-table-products){tabla de productos}, 
+      para incrementar un 10% el precio de todos los productos:
+      @pre(sql)
+        UPDATE Productos SET precio = precio * 1.1;

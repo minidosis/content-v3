@@ -1,7 +1,8 @@
-@graph{
+@graph
   @title{Componentes en Svelte}
-  @bases{ component }
-  @children{ 
+  @bases
+    component
+  @children
     svelte-component-props
     svelte-component-styling
     svelte-component-lifecycle
@@ -10,31 +11,36 @@
     svelte-component-call
     svelte-component-logic
     svelte-component-bind
-  }
-}
 
-@text[[[
+@text
+  Los componentes en Svelte se definen en ficheros @code{.svelte}, y los ficheros son
+  en formato HTML con 2 tipos de tags especiales.
 
-Los componentes en Svelte se definen en ficheros @code{.svelte}, y los ficheros son
-en formato HTML con 2 tipos de tags especiales.
-@olist{
-  @{En los tags @code{<script>} se puede poner código Javascript.}
-  @{En los tags @minidosis(svelte-component-styling){@code{ <style>}} se puede poner CSS.}
-}
-Esto hace que un componente sea autocontenido.
-
-Los componentes:
-@ulist{
-  @row{tienen @minidosis(svelte-component-props){propiedades} (o @em{props}),}
-  @row{tienen @minidosis(svelte-component-data){datos internos},}
-  @row{pueden definir @minidosis(svelte-component-styling){estilos propios},}
-  @row{se pueden @minidosis(svelte-component-call){llamar entre ellos},}
-  @row{definen una @minidosis(svelte-component-logic){lenguaje específico} para la generación condicional e iterativa del HTML,}
-  @row{permiten @minidosis(svelte-component-bind){asociar variables} con elementos DOM de tipo @code{<input>}.}
-  @row{pueden @minidosis(svelte-component-events){detectar eventos},}
-  @row{tienen funciones asociadas al @minidosis(svelte-component-lifecycle){ciclo de vida},}
-}
-
-]]]
-
+  @olist
+    @row
+      En los tags @code{<script>} se puede poner código Javascript.
+    @row
+      En los tags @minidosis(svelte-component-styling){@code[<style>]} se puede poner CSS.
+  
+  Esto hace que un componente sea autocontenido.
+  
+  Los componentes:
+  @ulist
+    @row
+      tienen @minidosis(svelte-component-props){propiedades} (o @em{props}),
+    @row
+      tienen @minidosis(svelte-component-data){datos internos},
+    @row
+      pueden definir @minidosis(svelte-component-styling){estilos propios},
+    @row
+      se pueden @minidosis(svelte-component-call){llamar entre ellos},
+    @row
+      definen una @minidosis(svelte-component-logic){lenguaje específico} para la generación condicional e iterativa del HTML,
+    @row
+      permiten @minidosis(svelte-component-bind){asociar variables} con elementos DOM de tipo @code{<input>}.
+    @row
+      pueden @minidosis(svelte-component-events){detectar eventos},
+    @row
+      tienen funciones asociadas al @minidosis(svelte-component-lifecycle){ciclo de vida},
+      
 

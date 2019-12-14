@@ -1,36 +1,36 @@
-@graph{
+@graph
   @title{SQL}
-  @children{
+  @children
     sql-create-table
     sql-drop-table
     sql-insert
     sql-update
     sql-delete
     sql-select
-  }
-}
 
-@text{
-SQL (siglas de @em{Structured Query Language}) es un
-@minidosis(lang-declarative){lenguaje declarativo} que permite modificar una
-@minidosis(db-relational){base de datos relacional} y hacer consultas a
-sus datos.
+@text
+  SQL (siglas de @em{Structured Query Language}) es un
+  @minidosis(lang-declarative){lenguaje declarativo} que permite modificar una
+  @minidosis(db-relational){base de datos relacional} y hacer consultas a
+  sus datos.
 
-Los comandos para crear y borrar tablas son:
-@ulist{
-  @row{@minidosis(sql-create-table){@code{CREATE TABLE}}, para crear tablas}
-  @row{@minidosis(sql-drop-table){@code{DROP TABLE}}, para borrar tablas}
-}
+  Los comandos para crear y borrar tablas son:
+  @ulist
+    @row
+      @minidosis(sql-create-table){@code<CREATE TABLE>}}, para crear tablas
+    @row
+      @minidosis(sql-drop-table){@code<DROP TABLE>}}, para borrar tablas
 
-Los comandos para manipular @minidosis(db-relational-row){filas} son:
-@ulist{
-  @row{@minidosis(sql-insert){@code{INSERT}}, para insertar filas}
-  @row{@minidosis(sql-update){@code{UPDATE}}, para actualizar filas}
-  @row{@minidosis(sql-delete){@code{DELETE}}, para borrar filas}
-}
+  Los comandos para manipular @minidosis(db-relational-row){filas} son:
+  @ulist
+    @row
+      @minidosis(sql-insert){@code<INSERT>}, para insertar filas
+    @row
+      @minidosis(sql-update){@code<UPDATE>}, para actualizar filas
+    @row
+      @minidosis(sql-delete){@code<DELETE>}, para borrar filas
 
-Los comandos para hacer consultas son:
-@ulist{
-  @row{@minidosis(sql-select){@code{SELECT}}, para consultar filas}
-}
-}
+  Los comandos para hacer consultas son:
+  @ulist
+    @row
+      @minidosis(sql-select){@code<SELECT>}, para consultar filas

@@ -1,8 +1,7 @@
-@graph{
+@graph
   @title{Lenguaje de Programación Declarativo}
-  @bases{ prog-lang }
-}
+  @bases
+    prog-lang
 
-@text{
-TODO.
-}
+@text
+  TODO.

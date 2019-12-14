@@ -1,8 +1,7 @@
-@graph{
+@graph
   @title{Lisp}
-  @bases{ prog-lang }
-}
+  @bases
+    prog-lang
 
-@text{
-El lenguaje de programación Lisp.
-}
+@text
+  El lenguaje de programación Lisp.

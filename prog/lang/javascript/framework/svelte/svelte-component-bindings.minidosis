@@ -1,12 +1,8 @@
-@graph{
+@graph
   @title{Asociación de variables en componentes Svelte}
-}
 
-@text[[[
-
-Bindings
-@ulist{
-  @row{Numeric}
-}
-
-]]]
+@text
+  Bindings
+  @ulist
+    @row{Numeric}
+  

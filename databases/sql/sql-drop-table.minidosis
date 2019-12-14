@@ -1,16 +1,17 @@
-@graph{
+@graph
   @title{DROP TABLE}
-}
 
-@text{
-El comando @code{DROP TABLE} tiene la sintaxis
+@text
+  El comando @code{DROP TABLE} tiene la sintaxis
 
-@pre(sql,display){DROP TABLE @box{nombre};}
+  @pre(sql, display)
+    DROP TABLE @box{nombre};
 
-y elimina de la @minidosis(db-relational){base de datos} la
-@minidosis(db-relational-table){tabla} con el nombre @box{nombre}. Produce
-un error si la tabla no existe @footnote(1)
+  y elimina de la @minidosis(db-relational){base de datos} la
+  @minidosis(db-relational-table){tabla} con el nombre @box{nombre}. Produce
+  un error si la tabla no existe@footnote(1)
+  
+  @footnote(1)
+    Existe una @minidosis(sql-drop-table-if-exists){variante} que
+    permite borrar al tabla solo cuando existe.
 
-@footnote(1){Existe una @minidosis(sql-drop-table-if-exists){variante} que
-permite borrar al tabla solo cuando existe.}
-}

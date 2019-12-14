@@ -1,14 +1,11 @@
-@graph{
+@graph
   @title{Datos de un componente}
-}
 
-@text[[[
+@text
+  Model Data
 
-Model Data
-@ulist{
-@row{Showing model Data.}
-@row{Using model data in attributes.}
-@row{Inserting html @code[{@@html text}]}
-}
-
-]]]
+  @ulist
+    @row{Showing model Data.}
+    @row{Using model data in attributes.}
+    @row{Inserting html @code[@html text]}
+      

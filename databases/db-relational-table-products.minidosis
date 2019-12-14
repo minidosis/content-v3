@@ -1,17 +1,21 @@
-@graph{
+@graph
   @title{Tabla de Productos}
-  @bases{ db-relational-table }
-}
+  @bases
+    db-relational-table
 
-@text{
-La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
-productos:
+@text
+  La siguiente @minidosis(db-relational-table){tabla} guarda un listado de
+  productos:
 
-@table{
-@header{@{id}@{descripción}@{modelo}@{marca}@{precio}}
-@row{@{82983}@{Grapadora 22/6}@{232}@{Petrus}@{19.90}}
-@row{@{77102}@{Bolígrafo Azul, Caja 50}@{Cristal}@{BIC}@{11.30}}
-@row{@{78723}@{Paquete Papel A4}@{Universal}@{Navigator}@{3.90}}
-@row{@{22989}@{Gomas de Borrar, Pack de 24}@{CPM624}@{Milan}@{6.45}}
-}
-}
+  @table
+    @header
+      @{id}@{descripción}@{modelo}@{marca}@{precio}
+    @row
+      @{82983}@{Grapadora 22/6}@{232}@{Petrus}@{19.90}
+    @row
+      @{77102}@{Bolígrafo Azul, Caja 50}@{Cristal}@{BIC}@{11.30}
+    @row
+      @{78723}@{Paquete Papel A4}@{Universal}@{Navigator}@{3.90}
+    @row
+      @{22989}@{Gomas de Borrar, Pack de 24}@{CPM624}@{Milan}@{6.45}
+  

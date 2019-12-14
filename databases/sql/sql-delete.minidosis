@@ -1,28 +1,31 @@
-@graph{
+@graph
   @title{DELETE}
-  @related{
+  @related
     db-relational-table-characters
     db-relational-table-products
-  }
-}
 
-@text{
-El comando @code{DELETE} tiene la sintaxis:
+@text
+  El comando @code{DELETE} tiene la sintaxis:
 
-@pre(sql,display){
-DELETE FROM @box{tabla} WHERE @box{cond};
-}
+  @pre(sql, display)
+    DELETE FROM @box{tabla} WHERE @box{cond};
 
-Este comando recorre la @box{tabla} entera, y borra aquellas
-@minidosis(db-relational-row){entidades} que cumplen la condición
-@box{cond}.
+  Este comando recorre la @box{tabla} entera, y borra aquellas
+  @minidosis(db-relational-row){entidades} que cumplen la condición
+  @box{cond}.
 
-Ejemplos:
-@ulist{
-@row{En la @minidosis(db-relational-table-characters){tabla de personajes}, para borrar el personaje de Leia:
-@pre(sql){DELETE FROM Personajes WHERE id = 4;}}
+  Ejemplos:
 
-@row{En la @minidosis(db-relational-table-products){tabla de productos}, para borrar los bolígrafos:
-@pre(sql){DELETE FROM Productos WHERE modelo = "Cristal";}}
-}
-}
+  @ulist
+    @row
+      En la @minidosis(db-relational-table-characters){tabla de personajes}, 
+      para borrar el personaje de Leia:
+      @pre(sql)
+        DELETE FROM Personajes WHERE id = 4;
+
+    @row
+      En la @minidosis(db-relational-table-products){tabla de productos}, 
+      para borrar los bolígrafos:
+      @pre(sql)
+        DELETE FROM Productos WHERE modelo = "Cristal";
+      

@@ -1,13 +1,13 @@
-@graph{
+@graph
   @title{Base de Datos}
-  @children{ db-types }
-}
+  @children
+    db-types
 
-@text{
-Una Base de Datos (BBDD) es un programa especializado en almacenar datos de
-forma segura y permitir que otros programas los actualicen y los consulten. A
-menudo 
+@text
+  Una Base de Datos (BBDD) es un programa especializado en almacenar datos de
+  forma segura y permitir que otros programas los actualicen y los consulten. A
+  menudo 
 
-Las BBDD suelen ejecutarse en servidores y permiten hacer muchas modificaciones
-y consultas por unidad de tiempo.
-}
+  Las BBDD suelen ejecutarse en servidores y permiten hacer muchas modificaciones
+  y consultas por unidad de tiempo.
+  

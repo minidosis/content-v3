@@ -1,8 +1,7 @@
-@graph{
+@graph
   @title{Ruby}
-  @bases{ prog-lang }
-}
+  @bases
+    prog-lang
 
-@text{
-Ruby
-}
+@text
+  Ruby

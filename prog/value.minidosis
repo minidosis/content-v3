@@ -1,11 +1,11 @@
-@graph{
+@graph
   @title{Valor}
-  @children{byte}
-}
+  @children
+    byte
 
-@text{
-En un @minidosis(prog-lang){lenguaje de programación}, un valor es la
-representación de un dato de cierto @minidosis(type){tipo} en uno o más
-@minidosis(byte){bytes}.
-}
+@text
+  En un @minidosis(prog-lang){lenguaje de programación}, un valor es la
+  representación de un dato de cierto @minidosis(type){tipo} en uno o más
+  @minidosis(byte){bytes}.
+  
 

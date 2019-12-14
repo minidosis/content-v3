@@ -1,15 +1,14 @@
-@graph{
+@graph
   @title{Programa}
-}
 
-@text{
-Un programa es una secuencia de instrucciones que describen un cálculo que un
-ordenador puede ejecutar de forma automática. El programa recibe unos datos, que
-son la @b{entrada} del programa, y produce unos resultados, que son la
-@b{salida} del programa. Un programa se puede ver entonces como un autómata que
-transforma las entradas en las salidas.
+@text
+  Un programa es una secuencia de instrucciones que describen un cálculo que un
+  ordenador puede ejecutar de forma automática. El programa recibe unos datos, que
+  son la @b{entrada} del programa, y produce unos resultados, que son la
+  @b{salida} del programa. Un programa se puede ver entonces como un autómata que
+  transforma las entradas en las salidas.
 
-Los programas se escriben en algun @minidosis(prog-lang){lenguaje de
-programación} y suelen ser un texto cuyas reglas gramaticales son muy precisas.
-}
+  Los programas se escriben en algun @minidosis(prog-lang){lenguaje de programación}
+  y suelen ser un texto cuyas reglas gramaticales son muy precisas.
+  
 

@@ -1,35 +1,31 @@
-@graph{
+@graph
   @title{Ciclo de vida de un componente}
-  @children{
+  @children
     svelte-component-lifecycle-onmount
     svelte-component-lifecycle-ondestroy
     svelte-component-lifecycle-update-before
     svelte-component-lifecycle-update-after
     svelte-component-lifecycle-tick
-  }
-}
 
-@text[[[
-Todo componente en Svelte tiene un ciclo de vida, que empieza cuando el
-componente es creado, y finaliza al ser destruido. Unas cuantas funciones
-permiten ejecutar código en momentos clave de la vida del componente:
-
-@ulist{
-  @row{@minidosis(svelte-component-lifecycle-onmount){@code{onMount}}, 
-    al montar el componente.}
-  @row{@minidosis(svelte-component-lifecycle-ondestroy){@code{onDestroy}}, 
-    en el momento en el que el componente es destruido.}
-  @row{@minidosis(svelte-component-lifecycle-update-before){@code{beforeUpdate}}, 
-    antes de que el componente se actualize.}
-  @row{@minidosis(svelte-component-lifecycle-after-before){@code{afterUpdate}}, 
-    después de que el componente se actualize.}
-
-  @comment{
-    @a{@minidosis(svelte-component-lifecycle-tick){@code{tick}}, para ejecutar después de una microtarea}
-  }    
-}
-
-
-
-
-]]]
+@text
+  Todo componente en Svelte tiene un ciclo de vida, que empieza cuando el
+  componente es creado, y finaliza al ser destruido. Unas cuantas funciones
+  permiten ejecutar código en momentos clave de la vida del componente:
+  
+  @ulist
+    @row
+      @minidosis(svelte-component-lifecycle-onmount){@code<onMount>}, 
+      al montar el componente.
+    @row
+      @minidosis(svelte-component-lifecycle-ondestroy){@code<onDestroy>}, 
+      en el momento en el que el componente es destruido.
+    @row
+      @minidosis(svelte-component-lifecycle-update-before){@code<beforeUpdate>}, 
+      antes de que el componente se actualize.
+    @row
+      @minidosis(svelte-component-lifecycle-after-before){@code<afterUpdate>}, 
+      después de que el componente se actualize.
+    
+    @comment
+      @a
+        @minidosis(svelte-component-lifecycle-tick){@code<tick>}, para ejecutar después de una microtarea        

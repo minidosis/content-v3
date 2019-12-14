@@ -1,8 +1,9 @@
-@graph{
+@graph
   @title{Código Máquina}
-  @children{ byte }
-}
+  @children
+    byte
 
-@text{
-El código máquina es código en binario que los procesadores pueden ejecutar directamente.
-}
+@text
+  El código máquina es código en binario que los procesadores pueden ejecutar directamente.
+  
+

@@ -1,17 +1,15 @@
-@graph{
+@graph
   @title{Representación}
-}
 
-@text{
-La representación de un concepto es una forma de codificar ese concepto usando
-símbolos, para poder comunicárselos a otra persona o a un ordenador. El número
-"tres", por ejemplo, tiene varias representaciones, según el sistema que usemos:
-la propia palabra "tres" es la representación como palabra, "III" seria en números
-romanos, "3" en números arábigos, y "11" en @minidosis(binary){binario}.
-
-Un mismo concepto, entonces, puede tener varias representaciones según el
-sistema de representación que usemos. El mundo de los ordenadores, al trabajar
-en @minidosis(binary){binario} utiliza de forma universal representaciones
-basadas en unos y ceros para todos los datos que se necesitan almacenar y
-transformar.
-}
+@text
+  La representación de un concepto es una forma de codificar ese concepto usando
+  símbolos, para poder comunicárselos a otra persona o a un ordenador. El número
+  "tres", por ejemplo, tiene varias representaciones, según el sistema que usemos:
+  la propia palabra "tres" es la representación como palabra, "III" seria en números
+  romanos, "3" en números arábigos, y "11" en @minidosis(binary){binario}.
+  Un mismo concepto, entonces, puede tener varias representaciones según el
+  sistema de representación que usemos. El mundo de los ordenadores, al trabajar
+  en @minidosis(binary){binario} utiliza de forma universal representaciones
+  basadas en unos y ceros para todos los datos que se necesitan almacenar y
+  transformar.
+  

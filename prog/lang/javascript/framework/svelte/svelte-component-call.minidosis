@@ -1,26 +1,21 @@
-@graph{
+@graph
   @title{Llamadas entre componentes Svelte}
-}
 
-@text[[[
+@text
+  Para llamar a un componente @minidosis(svelte){Svelte} primero hay que importar
+  el componente en el @code{<script>}:
 
-Para llamar a un componente @minidosis(svelte){Svelte} primero hay que importar
-el componente en el @code{<script>}:
+  @pre(html)
+    <script>
+      import @b{MiComponente} from '../components/@b{MiComponente}.svelte';
+      let x = 3;
+    </script>
+  
+  Luego se usa como si fuera un "nuevo elemento HTML":
 
-@pre(html)[[
-<script>
-  import @b{MiComponente} from '../components/@b{MiComponente}.svelte';
-  let x = 3;
-</script>
-]]
+  @pre(html)
+    <@b{MiComponente} attr1="val" attr2={x} attr3 />
 
-Luego se usa como si fuera un "nuevo elemento HTML":
-@pre(html)[[
-<@b{MiComponente} attr1="val" attr2={x} attr3 />
-]]
-
-Los atributos incluidos en la llamada (@code{attr1}, @code{attr2} y
-@code{attr3}) se convertirán en los
-@em{@minidosis(svelte-component-props){props}}.
-
-]]]
+  Los atributos incluidos en la llamada (@code{attr1}, @code{attr2} y @code{attr3}) 
+  se convertirán en los @em<@minidosis(svelte-component-props){props}>.
+  

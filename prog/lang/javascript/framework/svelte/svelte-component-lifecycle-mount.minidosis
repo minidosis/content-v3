@@ -1,7 +1,7 @@
-@graph{
-  @title{@code{Mount}}
-}
+@graph
+  @title{Mount}
+  @code{Mount}
 
-@text{
+@text
   @code{mount} ...
-}
+  

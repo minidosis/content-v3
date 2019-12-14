@@ -1,11 +1,13 @@
-@graph{
+@graph
   @title{Intérprete}
-  @bases{ program }
-}
+  @bases
+    program
 
-@text{
-Un intérprete ejecuta programas escritos en un lenguaje de programación
-sin traducirlos a @minidosis(machine-code){código máquina}.
+@text
+  Un intérprete ejecuta programas escritos en un lenguaje de programación
+  sin traducirlos a @minidosis(machine-code){código máquina}.
+  Ejemplos de lenguajes interpretados son 
+  @minidosis(python-lang){Python}, 
+  @minidosis(ruby-lang){Ruby}, etc.
+  
 
-Ejemplos de lenguajes interpretados son @minidosis(python-lang){Python}, @minidosis(ruby-lang){Ruby}, etc.
-}

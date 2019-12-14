@@ -1,16 +1,15 @@
-@graph{
+@graph
   @title{INSERT (indicando columnas)}
-  @bases{sql-insert}
-}
+  @bases
+    sql-insert
 
-@text{
-Esta variante del comando @code{INSERT} tiene la sintaxis:
+@text
+  Esta variante del comando @code{INSERT} tiene la sintaxis:
 
-@pre(sql,display){
-INSERT INTO @box{table}(@box{col1}, @box{col2}, ...) 
-VALUES(@box{v1}, @box{v2}, ...)
-}
+  @pre(sql, display)
+    INSERT INTO @box{table}(@box{col1}, @box{col2}, ...) 
+    VALUES(@box{v1}, @box{v2}, ...)
 
-y permite indicar qué columnas queremos insertar concretamente (el resto
-quedarán a NULL).
-}
+  y permite indicar qué columnas queremos insertar concretamente (el resto
+  quedarán a NULL).
+  

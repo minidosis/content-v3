@@ -1,29 +1,27 @@
-@graph{
+@graph
   @title{Columna}
-}
 
-@text{
-En una @minidosis(db-relational-table){tabla} de una
-@minidosis(db-relational){bases de datos relacional}, una @b{columna}
-contiene los distintos valores de cierto atributo para cada
-@minidosis(db-relational-row){entidad} almacenados en la tabla.
+@text
+  En una @minidosis(db-relational-table){tabla} de una
+  @minidosis(db-relational){bases de datos relacional}, una @b{columna}
+  contiene los distintos valores de cierto atributo para cada
+  @minidosis(db-relational-row){entidad} almacenados en la tabla.
 
-Una columna tiene también otros dos nombres equivalentes: @b{atributo} y @b{campo} @footnote(1)
+  Una columna tiene también otros dos nombres equivalentes: @b{atributo} 
+  y @b{campo} @footnote(1)
 
+  Por ejemplo, en la siguiente tabla de colores
 
-Por ejemplo, en la siguiente tabla de colores
+  @table
+    @header{@<Nombre>@<Hex>}
+    @row{@<rojo>@<@code[#ff0000]>}
+    @row{@<azul>@<@code[#0000ff]>}
+    @row{@<verde>@<@code[#00ff00]>}
 
-@table{
-@header{@{Nombre}@{Hex}}
-@row{@{rojo}@{@code{#ff0000}}}
-@row{@{azul}@{@code{#0000ff}}}
-@row{@{verde}@{@code{#00ff00}}}
-}
+  la columna "Nombre" almacena los nombres para los tres colores (las tres
+  @minidosis(db-relational-row){filas}).
 
-la columna "Nombre" almacena los nombres para los tres colores (las tres
-@minidosis(db-relational-row){filas}).
-
-@footnote(1){Ambos provienen de los @minidosis(prog-lang){lenguajes de programación}, donde
-los @minidosis(data-tuple){tipos de datos estructurados} permiten describir los
-diferentes datos asociados a un objeto.}
-}
+  @footnote(1)
+    Ambos provienen de los @minidosis(prog-lang){lenguajes de programación}, donde
+    los @minidosis(data-tuple){tipos de datos estructurados} permiten describir los
+    diferentes datos asociados a un objeto.

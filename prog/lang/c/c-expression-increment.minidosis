@@ -1,28 +1,30 @@
-@graph{
+@graph
   @title{Incremento (C)}
-  @bases{ expression }
-  @related{ math-addition }
-}
+  @bases
+    expression
+  @related
+    math-addition
 
-@text{
-El incremento en @minidosis(c-lang){C} (y @minidosis(cpp-lang){C++}) permite
-añadir una unidad a una @minidosis(variable){variable} de tipo
-@minidosis(integer-type){@code{int}}, @minidosis(float-type){@code{float}}, o
-@minidosis(double-type){@code{double}}.
+@text
+  El incremento en @minidosis(c-lang){C} (y @minidosis(cpp-lang){C++}) permite
+  añadir una unidad a una @minidosis(variable){variable} de tipo
+  @minidosis(integer-type){@code<int>}, 
+  @minidosis(float-type){@code<float>}, o
+  @minidosis(double-type){@code<double>}.
 
-El incremento tiene dos versiones: @minidosis(c-expression-increment-pre){Pre-Incremento} 
-y @minidosis(c-increment-post){Post-Incremento}
-
-@h2{Uso como instrucción}
-
-Cualquiera de las dos versiones, usadas como una @minidosis(cpp-statement){instrucción}, 
-simplemente aumentan en 1 la variable incrementada.
-
-@pre(c++)[[
-int a = 1, b = 2;
-a++;
-++b;
-]]
-
-La diferencia entre las dos aparece cuando se usan en una @minidosis(expression){expresión}.
-}
+  El incremento tiene dos versiones: 
+  @minidosis(c-expression-increment-pre){Pre-Incremento} y 
+  @minidosis(c-increment-post){Post-Incremento}.
+  
+  @h2{Uso como instrucción}
+  
+  Cualquiera de las dos versiones, usadas como una @minidosis(cpp-statement){instrucción}, 
+  simplemente aumentan en 1 la variable incrementada.
+  
+  @pre(c++)
+    int a = 1, b = 2;
+    a++;
+    ++b;
+  
+  La diferencia entre las dos aparece cuando se usan en una @minidosis(expression){expresión}.
+  

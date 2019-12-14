@@ -1,15 +1,15 @@
-@graph{
+@graph
   @title{Tipos en Bases de Datos}
-  @bases{ type }
-}
+  @bases
+    type
 
-@text{
-Las bases de datos utilizan muchos @minidosis(type){tipos} de datos distintos
-para las @minidosis(db-relational-column){columnas}, pero cada base de datos 
-tiene tipos ligeramente distintos.
+@text
+  Las bases de datos utilizan muchos @minidosis(type){tipos} de datos distintos
+  para las @minidosis(db-relational-column){columnas}, pero cada base de datos 
+  tiene tipos ligeramente distintos.
 
-Tipos para:
-@ulist{
-@{@minidosis(db-types-sqlite){SQLite}}
-}
-}
+  Tipos para:
+  @ulist
+    @row
+      @minidosis(db-types-sqlite){SQLite}
+  

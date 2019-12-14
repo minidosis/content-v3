@@ -1,8 +1,7 @@
-@graph{
+@graph
   @title{Python}
-  @bases{ prog-lang }
-}
+  @bases
+    prog-lang
 
-@text{
+@text
   Python...
-}

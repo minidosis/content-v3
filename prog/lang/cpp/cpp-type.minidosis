@@ -1,10 +1,9 @@
-@graph{
+@graph
   @title{Tipos en C++}
-  @bases{ type }
-}
+  @bases
+    type
 
-@text{
-Los tipos en C++ y bla bla bla.
-
-El tipo @code{int}.
-}
+@text
+  Los tipos en C++ y bla bla bla.
+  El tipo @code{int}.
+  

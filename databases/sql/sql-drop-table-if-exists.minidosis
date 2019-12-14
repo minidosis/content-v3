@@ -1,13 +1,13 @@
-@graph{
+@graph
   @title{DROP TABLE IF EXISTS}
-  @bases{sql-drop-table}
-}
+  @bases
+    sql-drop-table
 
-@text{
-La variante de @code{DROP TABLE} donde añadimos @code{IF EXISTS}
+@text
+  La variante de @code{DROP TABLE} donde añadimos @code{IF EXISTS}
 
-@pre(sql,display){DROP TABLE IF EXISTS @box{nombre};}
+  @pre(sql,display)
+    DROP TABLE IF EXISTS @box{nombre};
 
-suprime el error que resulta cuando al intentar borrar una tabla, ésta no
-existe.
-}
+  suprime el error que resulta cuando al intentar borrar una tabla, ésta no
+  existe.

@@ -1,28 +1,25 @@
-@graph{
+@graph
   @title{Pre-Incremento (C)}
-  @bases{ c-expression-increment }
-}
+  @bases
+    c-expression-increment
 
-@text{
-El pre-@minidosis(c-expression-increment){incremento} es una
-@minidosis(unary-expression){expresión unaria} con la forma siguiente:
+@text
+  El pre-@minidosis(c-expression-increment){incremento} es una
+  @minidosis(unary-expression){expresión unaria} con la forma siguiente:
+  
+  @pre(c++, display)
+    @b{++}@box{variable}
 
-@pre(c++,display)[[
-@b{++}@box{variable}
-]]
+  Cuando se usa como una @minidosis(expression){expresión}, el pre-incremento 
+  actualiza la @box{variable}@b{antes} de evaluar la expresión.
+  Por ejemplo:
 
-Cuando se usa como una @minidosis(expression){expresión}, el pre-incremento 
-actualiza la @box{variable} @b{antes} de evaluar la expresión.
+  @pre(c++)
+    int a = 5, b;
+    b = @b{++a};
 
-Por ejemplo:
-
-@pre(c++)[[
-int a = 5, b;
-b = @b{++a};
-]]
-
-En este código la @minidosis(variable){variable} @code{b} valdrá 6, porque
-primero se incrementará @code{a} y luego se hace la
-@minidosis(cpp-assignment){asignación} de @code{b} con el nuevo valor de
-@code{a}.
-}
+  En este código la @minidosis(variable){variable}@code{b} valdrá 6, porque
+  primero se incrementará @code{a} y luego se hace la 
+  @minidosis(cpp-assignment){asignación} de @code{b} con el nuevo valor de
+  @code{a}.
+  
