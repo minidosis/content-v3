@@ -3,9 +3,9 @@
 
 @text
   En una @minidosis(db-relational-table){tabla} de una
-  @minidosis(db-relational){bases de datos relacional}, una @b{columna}
+  @minidosis(db-relational){base de datos relacional}, una @b{columna}
   contiene los distintos valores de cierto atributo para cada
-  @minidosis(db-relational-row){entidad} almacenados en la tabla.
+  @minidosis(db-relational-row){entidad} de la tabla.
 
   Una columna tiene también otros dos nombres equivalentes: @b<atributo>
   y @b<campo>@footnote(1)
