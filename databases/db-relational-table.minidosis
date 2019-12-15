@@ -15,13 +15,10 @@
 
   @table
     @header
-      @{Nombre}@{Apellido}@{Edad}
-    @row
-      @{Groucho}@{Marx}@{41}
-    @row
-      @{Chico}@{Marx}@{38}
-    @row
-      @{Harpo}@{Marx}@{39}
+      Nombre | Apellido | Edad
+    Groucho | Marx | 41
+    Chico   | Marx | 38
+    Harpo   | Marx | 39
 
   Las entidades son los 3 hermanos Marx, y para cada uno de ellos tenemos sus
   atributos o campos: nombre, apellido y edad. 

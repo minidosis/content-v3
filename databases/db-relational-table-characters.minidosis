@@ -9,17 +9,12 @@
   
   @table
     @header
-      @{id}@{nombre}@{género}@{película}@{nota}
-    @row
-      @{1}@{Sherlock Holmes}@{M}@{Sherlock}@{9.2}
-    @row
-      @{2}@{Hermione Granger}@{F}@{Harry Potter}@{9.3}
-    @row
-      @{3}@{Jack Sparrow}@{M}@{Piratas del Caribe}@{9.1}
-    @row
-      @{4}@{Princesa Leia}@{F}@{Star Wars}@{9.5}
-    @row
-      @{5}@{Jack Sparrow}@{M}@{Piratas del Caribe}@{9.1}
+      id | nombre | género | película | nota
+    1 | Sherlock Holmes | M | Sherlock | 9.2
+    2 | Hermione Granger | F | Harry Potter | 9.3
+    3 | Jack Sparrow | M | Piratas del Caribe | 9.1
+    4 | Princesa Leia | F | Star Wars | 9.5
+    5 | Jack Sparrow | M | Piratas del Caribe | 9.1
     
   Para @minidosis(sql-create-table){crear} esta tabla ejecutaríamos el siguiente comando @minidosis(sql){SQL}:
 

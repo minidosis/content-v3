@@ -6,14 +6,15 @@
 @text
   Un compilador es un @minidosis(program){programa} que traduce
   @minidosis(source-code){código fuente} a 
-  @minidosis(machine-code){código máquina}. 
+  @minidosis(lang-machine){código máquina}. 
   La entrada del compilador es una descripción en forma textual de un
   programa (en la figura, @code{hola.cpp}), con el formato especificado por cierto
   @minidosis(prog-lang){lenguaje de programación}, y la salida es un programa
   equivalente pero en un lenguaje que la máquina puede ejecutar directamente (en
   la figura, @code{hola.exe}).
   
-  @img{compiler.png}
+  @img(png)
+    compiler.png
   
   Muchos lenguajes de programación estan estandarizados. El estándar
   de un lenguaje documenta el conjunto de reglas que describen qué estructura

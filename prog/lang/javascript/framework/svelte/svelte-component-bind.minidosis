@@ -11,6 +11,7 @@
     <script>
       let variable = 'texto'
     </script>
+    
     <input @b{bind:value}={variable} /> 
   
   Svelte trata las @minidosis(svelte-component-bind-number){asociaciones numéricas}

@@ -17,9 +17,9 @@
   Los comandos para crear y borrar tablas son:
   @ulist
     @row
-      @minidosis(sql-create-table){@code<CREATE TABLE>}}, para crear tablas
+      @minidosis(sql-create-table){@code<CREATE TABLE>}, para crear tablas
     @row
-      @minidosis(sql-drop-table){@code<DROP TABLE>}}, para borrar tablas
+      @minidosis(sql-drop-table){@code<DROP TABLE>}, para borrar tablas
 
   Los comandos para manipular @minidosis(db-relational-row){filas} son:
   @ulist

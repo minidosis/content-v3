@@ -1,6 +1,5 @@
 @graph
-  @title{Mount}
-  @code{Mount}
+  @title{@code<onMount>}
 
 @text
   @code{mount} ...

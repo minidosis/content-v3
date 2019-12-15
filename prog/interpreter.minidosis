@@ -5,7 +5,7 @@
 
 @text
   Un intérprete ejecuta programas escritos en un lenguaje de programación
-  sin traducirlos a @minidosis(machine-code){código máquina}.
+  sin traducirlos a @minidosis(lang-machine){código máquina}.
   Ejemplos de lenguajes interpretados son 
   @minidosis(python-lang){Python}, 
   @minidosis(ruby-lang){Ruby}, etc.
