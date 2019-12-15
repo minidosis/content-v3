@@ -3,7 +3,7 @@
 
 @text
   En @minidosis(dbs-relational){bases de datos relacionales}, una 
-  @b{fila}(también @b{entidad}, @b{objeto} o @b{tupla}) en una 
+  @b{fila} (también @b{entidad}, @b{objeto} o @b{tupla}) en una 
   @minidosis(db-relational-table){tabla} se corresponde con un solo objeto 
   representado por sus diferentes atributos.
 

@@ -12,6 +12,7 @@
     <script>
       let numCoins = 7;
     </script>
+    
     <input @b{type=number} bind:value={numCoins} />
   
   Los atributos extra @code{min} y @code{max} permiten poner límites:

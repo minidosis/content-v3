@@ -8,11 +8,11 @@
   (que denomina @em{storage classes})
 
   @table(left)
-    @code<NULL> | Solo para el valor @minidosis(db-types-null)[@code<NULL>]
-    @code<INTEGER> | Enteros, de 1, 2, 3, 4, 6, u 8 @minidosis(byte)<bytes>.
-    @code<REAL> | Reales, en formato IEEE de 8 @minidosis(byte)<bytes>.
-    @code<TEXT> | Texto, de longitud variable (en UTF-8).
-    @code<BLOB> | Datos binarios, de longitud variable.
+    @b{@code<NULL>}    | Solo para el valor @minidosis(db-types-null){@code<NULL>}
+    @b{@code<INTEGER>} | Enteros, de 1, 2, 3, 4, 6, u 8 @minidosis(byte){bytes}.
+    @b{@code<REAL>}    | Reales, en formato IEEE de 8 @minidosis(byte){bytes}.
+    @b{@code<TEXT>}    | Texto, de longitud variable (en UTF-8).
+    @b{@code<BLOB>}    | Datos binarios, de longitud variable.
 
   Estos tipos son los que se usan efectivamente en memoria, aunque en el disco una
   base de datos que almacena enteros pequeños usará el mínimo espacio.

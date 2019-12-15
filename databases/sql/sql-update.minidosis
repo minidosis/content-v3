@@ -8,7 +8,7 @@
   El comando @code{UPDATE} más simple tiene la sintaxis:
 
   @pre(sql, display)
-    UPDATE @box{tabla} SET @box{col} = @box{expr}WHERE @box{cond};
+    UPDATE @box{tabla} SET @box{col} = @box{expr} WHERE @box{cond};
 
   Este comando recorre la @box{tabla} entera, y
   actualiza la columna @box{col} al valor @box{expr} para aquellas

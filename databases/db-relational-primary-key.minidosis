@@ -3,7 +3,7 @@
 
 @text
   En una @minidosis(db-relational-table){tabla}, la clave primaria 
-  (@em primary key) es un subconjunto de columnas que permite identificar cada
+  (@em<primary key>) es un subconjunto de columnas que permite identificar cada
   @minidosis(db-relational-row){entidad}. Es decir, cada grupo de valores de las
   columnas de la clave primaria asociado a una fila es único en la tabla.
 

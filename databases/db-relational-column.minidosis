@@ -7,8 +7,8 @@
   contiene los distintos valores de cierto atributo para cada
   @minidosis(db-relational-row){entidad} almacenados en la tabla.
 
-  Una columna tiene también otros dos nombres equivalentes: @b{atributo} 
-  y @b{campo} @footnote(1)
+  Una columna tiene también otros dos nombres equivalentes: @b<atributo>
+  y @b<campo>@footnote(1)
 
   Por ejemplo, en la siguiente tabla de colores
 
