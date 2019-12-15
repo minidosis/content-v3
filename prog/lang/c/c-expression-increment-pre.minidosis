@@ -11,7 +11,7 @@
     @b{++}@box{variable}
 
   Cuando se usa como una @minidosis(expression){expresión}, el pre-incremento 
-  actualiza la @box{variable}@b{antes} de evaluar la expresión.
+  actualiza la @box{variable} @b{antes} de evaluar la expresión.
   Por ejemplo:
 
   @pre(c++)
